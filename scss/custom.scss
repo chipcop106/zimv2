@@ -482,6 +482,9 @@ a.menu-link svg {
         &:hover{
             background: #f5f6fa;
         }
+        &:last-child{
+            margin-bottom:0;
+        }
     }
 }
 
@@ -567,6 +570,13 @@ a.menu-link svg {
 
 .doc-item-wrap{
     overflow: hidden;
+    position:relative;
+    &:hover{
+        .doc-link{
+            transform: translateY(0);
+            opacity: 1;
+        }
+    }
     .doc-image{
         width: 100%;
         img{
@@ -575,12 +585,29 @@ a.menu-link svg {
         }
     }
     .doc-link{
-        padding:15px 0;
+        padding:10px;
+        position:absolute;
+        bottom:0;
+        left:0;
+        width:100%;
+        background:rgba(0,0,0,.8);
+        opacity:0;
+        @include transition(.4s);
+        a{
+            color:#fff;
+        }
+        transform:translateY(100%);
     }
 }
 .docs-list{
     margin:0 -10px;
     .col-12{
         padding:0 10px;
+    }
+}
+.docs-wrap{
+    height:100%;
+    > .card{
+        height:100%;
     }
 }
