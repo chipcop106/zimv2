@@ -11,7 +11,25 @@ $(document).ready(function(){
     document.querySelectorAll(".tableFixHead").forEach(el => 
         el.addEventListener("scroll", tableFixHead)
     );
+      //Select2 in modal 
 
+    $('.select2').each(function(){
+      let $this = $(this);
+      let $parent = $(this).closest('.modal');
+      if($parent.length > 0){
+          $this.select2({
+              dropdownParent: $parent,
+          })
+      }else{
+          $this.select2();
+      }
+    });
+
+    $('#scroll-to-top').on('click',function(){
+      $('html,body').animate({
+        scrollTop:0
+      },1000);
+    });
   //datepicker
   $.datetimepicker.setLocale('vi');
 $('.datetimepicker').each(function(){

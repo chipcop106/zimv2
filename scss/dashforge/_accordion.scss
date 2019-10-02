@@ -117,3 +117,4 @@
 .accordion-pink { @include accordion-variant($pink, lighten($pink, 52%)); }
 .accordion-teal { @include accordion-variant($teal, lighten($teal, 56%)); }
 .accordion-dark { @include accordion-variant($gray-700, $gray-200); }
+.accordion-primary { @include accordion-variant('#3462C8', '#F5F6FA'); }

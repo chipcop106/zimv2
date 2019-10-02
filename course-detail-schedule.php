@@ -55,7 +55,7 @@
                 </div>
                 
             </div>
-            <div class="col-12 colsm-12 col-md-12 col-xl-9">
+            <div class="col-12 colsm-12 col-md-12 col-xl-9 mg-t-20 mg-xl-t-0">
                 <div id="schedule-calendar" class="schedule-calendar"></div>
             </div>
         </div>

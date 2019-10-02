@@ -1,4 +1,4 @@
-
+    <a href="javascript:;" id="scroll-to-top"><i class="material-icons">keyboard_arrow_up</i></a>
     <footer class="footer">
       <div>
         <span>&copy; 2019 ZIM v1.0.0. </span>
@@ -17,6 +17,7 @@
     <script src="lib/feather-icons/feather.min.js"></script>
     <script src="lib/perfect-scrollbar/perfect-scrollbar.min.js"></script>
     <script src="lib/datetimepicker-2.5.20/jquery.datetimepicker.full.min.js"></script>
+    <script src="lib/select2/js/select2.min.js"></script>
     <script src="assets/js/dashforge.js"></script>
     <script src="assets/js/custom.js"></script>
 
