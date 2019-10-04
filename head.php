@@ -17,9 +17,12 @@
     <link href="lib/ionicons/css/ionicons.min.css" rel="stylesheet">
     <link href="lib/datetimepicker-2.5.20/jquery.datetimepicker.min.css" rel="stylesheet">
     <link href="lib/select2/css/select2.min.css" rel="stylesheet">
+    <link href="lib/quill/quill.core.css" rel="stylesheet">
+    <link href="lib/quill/quill.snow.css" rel="stylesheet">
+
     <!-- Mona CSS -->
-    <link rel="stylesheet" href="assets/css/dashforge.css?v=1.1">
-    <link rel="stylesheet" href="assets/css/custom.css?v=1.3">
+    <link rel="stylesheet" href="assets/css/dashforge.css?v=1.3">
+    <link rel="stylesheet" href="assets/css/custom.css?v=1.4">
     <!-- some additional css here -->
   </head>
   <!-- END: Head-->

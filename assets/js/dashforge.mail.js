@@ -15,7 +15,8 @@ $(function(){
     suppressScrollX: true
   });
 
-
+  $('body').addClass('app-mail');
+  $('#scroll-to-top').hide();
   // UI INTERACTION
   $('.mail-group-body .media').on('click', function(e){
 
@@ -43,7 +44,7 @@ $(function(){
     modules: {
       toolbar: '#toolbar-container'
     },
-    placeholder: 'Compose an epic...',
+    placeholder: 'Nội dung...',
     theme: 'snow'
   });
 
@@ -52,7 +53,7 @@ $(function(){
     modules: {
       toolbar: '#toolbar-container2'
     },
-    placeholder: 'Write your message here',
+    placeholder: 'Nội dung yêu cầu...',
     theme: 'snow'
   });
 
