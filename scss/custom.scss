@@ -998,12 +998,12 @@ audio.valign-center {
     }
 }
 .btn-record{
-    svg{
+    > *{
         pointer-events:none;
     }
 }
 .note-ps{
-    height:calc(100vh - 118px);
+    max-height:calc(100vh - 118px);
     position: relative;
     background:#f8f8f8
 }
@@ -1280,3 +1280,8 @@ $starHoverColour: #6089e1;
           display:none;
       }
   }
+
+  .student-course + div.w-100 {
+    padding-top: 15px;
+    border-top: 1px solid #e1e1e1;
+}

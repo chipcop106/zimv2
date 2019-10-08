@@ -2,6 +2,16 @@
 <?php require_once( 'header.php' ); ?>
 <div class="content content-fixed">
     <div class="container pd-x-0 pd-lg-x-10 pd-xl-x-0">
+        <!-- Breadcrumb -->
+        <nav aria-label="breadcrumb">
+        <ol class="breadcrumb breadcrumb-style1 mg-b-0">
+            <li class="breadcrumb-item"><a href="#">Trang chủ</a></li>
+            <li class="breadcrumb-item"><a href="#">Khoá học</a></li>
+            <li class="breadcrumb-item active" aria-current="page">Danh sách khoá học</li>
+        </ol>
+        </nav>
+        <!-- End breadcrumb -->
+        
         <div class="d-xl-flex align-items-center justify-content-between ">
             <div>
             <h4 class="mg-b-0 tx-spacing--1">Danh sách khoá học</h4>

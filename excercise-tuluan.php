@@ -52,8 +52,11 @@
                             <h6 class="mg-b-0">Question</h6>
                         </div>
                         <div class="card-body">
+                            <div class="exc-info mg-b-30">
+                                <p class="title-question tx-16 mg-0 tx-semibold">LISTENING LESSON 1: COMPLETION TASK</p>
+                                <p class="deadline mg-0 tx-color-03">Deadline: 20/04/2019</p>
+                            </div>
                             <div class="raw-txt">
-                                <p>LISTENING LESSON 1: COMPLETION TASK</p>
                                 <p>Link các bài nghe trong phần practice của bài học hôm nay:</p>
                                 <p>Exercise 1: https://www.easy-ielts.com/cambridge-listening-book-7-test-3/</p>
                                 <p>3: http://practicepteonline.com/ielts-listening-test-175/</p>
@@ -64,7 +67,7 @@
                     <div class="card mg-t-10">
                         <div class="card-header">
                             <h6 class="mg-b-5">Writing</h6>
-                            <p class="tx-12 tx-color-03 mg-b-0">Phần trả lời tự luận</p>
+                            <p class="tx-12 tx-color-03 mg-b-0">Writing area</p>
                         </div>
                         <div class="card-body">
                             <div class="raw-txt" id="student-raw-text">
@@ -102,7 +105,7 @@
                             </div>
                             <div class="tab-pane fade" id="upload-panel" role="tabpanel" aria-labelledby="upload-tab">
                             <div class="audio-upload">
-                            <input type="file" class="dropify" data-max-file-size="3M" />
+                            <input type="file" class="file-pond" multiple/>
                             </div>
                             </div>
 
@@ -319,6 +322,12 @@
       };
     //Init editor
     tinymce.init(commentEditor);
-    $('.dropify').dropify();
+
+    //Init file Pond
+    var inputFile = document.querySelector('input[type="file"]');
+    if(inputFile){
+        var pond = FilePond.create(inputFile);
+    }
+
     });
 </script>

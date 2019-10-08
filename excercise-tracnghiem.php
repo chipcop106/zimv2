@@ -2,6 +2,7 @@
 <?php require_once( 'header.php' ); ?>
 <div class="content content-fixed">
     <div class="container pd-x-0 pd-lg-x-10 pd-xl-x-0">
+    
         <div class="row">
             <div class="col-12 col-md-4">
                 <div class="left-sticky">
