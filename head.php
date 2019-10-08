@@ -19,6 +19,8 @@
     <link href="lib/select2/css/select2.min.css" rel="stylesheet">
     <link href="lib/quill/quill.core.css" rel="stylesheet">
     <link href="lib/quill/quill.snow.css" rel="stylesheet">
+    <link href="lib/quill/quill.snow.css" rel="stylesheet">
+    <link href="lib/dropify/dropify.css" rel="stylesheet">
 
     <!-- Mona CSS -->
     <link rel="stylesheet" href="assets/css/dashforge.css?v=1.3">
