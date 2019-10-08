@@ -18,6 +18,7 @@
     <script src="lib/perfect-scrollbar/perfect-scrollbar.min.js"></script>
     <script src="lib/datetimepicker-2.5.20/jquery.datetimepicker.full.min.js"></script>
     <script src="lib/select2/js/select2.min.js"></script>
+    <script src="lib/dropify/dropify.js"></script>
     <script src="assets/js/dashforge.js"></script>
     <script src="assets/js/custom.js"></script>
 
