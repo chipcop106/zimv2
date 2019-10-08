@@ -559,7 +559,7 @@
                         'box-shadow': 'rgba(53, 98, 200, 0.28) 0px 0px 11px 2px', 
                         'border-color':'transparent',
                         'background': 'rgba(255, 255, 255, 1)',
-                        'transform': 'scale(1.02) translate(-10px,-5px)'
+                        'transform': 'scale(1.02) translate(10px,-5px)'
                     });
                 }else{
                     $(this).attr('style', '');
@@ -588,7 +588,7 @@
                         'box-shadow': 'rgba(53, 98, 200, 0.28) 0px 0px 11px 2px', 
                         'border-color':'transparent',
                         'background': 'rgba(255, 255, 255, 1)',
-                        'transform': 'scale(1.02) translate(-10px,-5px)'
+                        'transform': 'scale(1.02) translate(10px,-5px)'
 
                     });
             $('.note-block').not($(this)).attr('style','');
