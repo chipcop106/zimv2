@@ -4,40 +4,6 @@
     <div class="container pd-x-0 pd-lg-x-10 pd-xl-x-0">
 
         <div class="row">
-            <div class="col-12 col-md-8">
-                <div class="exc-info">
-                    <div class="question-wrap">
-                        <div class="card">
-                            <div class="card-header">
-                                <h6 class="mg-b-5">Question</h6>
-                                <p class="tx-12 tx-color-03 mg-b-0">Câu hỏi bài tập</p>
-                            </div>
-                            <div class="card-body">
-                                <div class="raw-txt">
-                                    <p>LISTENING LESSON 1: COMPLETION TASK</p>
-                                    <p>Link các bài nghe trong phần practice của bài học hôm nay:</p>
-                                    <p>Exercise 1: https://www.easy-ielts.com/cambridge-listening-book-7-test-3/</p>
-                                    <p>3: http://practicepteonline.com/ielts-listening-test-175/</p>
-                                    <img src="https://app.zim.vn/Upload/exercise/fa9468c0-7508-4f25-9e5b-6f3489a88228.png" alt="image">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="card mg-t-10">
-                            <div class="card-header">
-                                <h6 class="mg-b-5">Answer</h6>
-                                <p class="tx-12 tx-color-03 mg-b-0">Phần trả lời của học viên</p>
-                            </div>
-                            <div class="card-body">
-                                <div class="raw-txt" id="student-raw-text">
-                                    <p><strong><span style="color: rgb(24, 160, 133);" data-mce-style="color: #18a085;">Exercise 1:</span></strong></p><p><strong>14. Paragraph A</strong> - <span style="color: rgb(53, 152, 219);" data-mce-style="color: #3598db;">(5) A potential danger arising from boredom.</span><br><span style="color: rgb(126, 140, 141);" data-mce-style="color: #7e8c8d;">Clue: Line 8 -&nbsp; …” if disgust protects humans from infection, boredom them from “infecious” social situations” he suggests.</span></p><p><br><strong>15. Paragraph B</strong> - <span style="color: rgb(53, 152, 219);" data-mce-style="color: #3598db;">(6) Creating a system of classification for feelings of boredom.</span><br><span style="color: rgb(126, 140, 141);" data-mce-style="color: #7e8c8d;">Clue: Line 1 -&nbsp; Thomas Goetz and his team….have recently identified five distinct types: indifferent, calibrating, searching, reactant and apathetic….which measures how positive or negative the feeling is intriguingly.</span></p><p><br><strong>16. Paragraph C</strong> - <span style="color: rgb(53, 152, 219);" data-mce-style="color: #3598db;">(1) The productive outcomes that may result from boredom.</span><br><span style="color: rgb(126, 140, 141);" data-mce-style="color: #7e8c8d;">Clue: Line 2 &amp; 8 -&nbsp; Mann has found that being bored makes us more creative….boring activity is the best for creativity because it allows the mind to wander”</span></p><p><br><strong>17. Paragraph D</strong> - <span style="color: rgb(53, 152, 219);" data-mce-style="color: #3598db;">(4) Problems with a scientific approach to freedom.</span><br><span style="color: rgb(126, 140, 141);" data-mce-style="color: #7e8c8d;">Clue: Line 10 -&nbsp; “ People try to connect with the world and if they are not successful there’s that frustration and irritability”</span></p><p><br><strong>18. Paragraph E</strong> - <span style="color: rgb(53, 152, 219);" data-mce-style="color: #3598db;">(2) What teachers can do to prevent boredom.</span><br><span style="color: rgb(126, 140, 141);" data-mce-style="color: #7e8c8d;">Clue: Line 9 -&nbsp; ...What can we do to alleviate it before it comes to that? Goetz’s group has one suggestion….report less boredom than those who try to avoid it by using snacks, TV or social media for distraction”</span></p><p><br><strong>19. Paragraph F</strong> - <span style="color: rgb(53, 152, 219);" data-mce-style="color: #3598db;">(3) A new explanation and a new cure for boredom.</span><br><span style="color: rgb(126, 140, 141);" data-mce-style="color: #7e8c8d;">Clue: Line 1 &amp; 4 -&nbsp; Psychologist Francoise Wemelsfelder speculates that our over-connected lifestyles might even be a new source of boredom….we should leave our phones alone, and use boredom to motivate us to engage with the would in a more meaningful way.&nbsp;</span></p><p><span style="color: rgb(126, 140, 141);" data-mce-style="color: #7e8c8d;"><br data-mce-bogus="1"></span></p><p><span style="color: rgb(24, 160, 133);" data-mce-style="color: #18a085;"><strong>Exercise 2:</strong></span></p><p><strong>14. Paragraph B</strong> - <span style="color: rgb(53, 152, 219);" data-mce-style="color: #3598db;">(2) The relevance of the Little Ice Age today.</span><br><span style="color: rgb(126, 140, 141);" data-mce-style="color: #7e8c8d;">Clue: Line 4 -&nbsp; …The climatic events of the Little Ice Age did more than help shape the modern world...by complex and still little understood interactions between the atmosphere and the ocean.</span></p><p><br><strong>15. Paragraph D</strong> - <span style="color: rgb(53, 152, 219);" data-mce-style="color: #3598db;">(7) A study convering a thousand years.</span><br><span style="color: rgb(126, 140, 141);" data-mce-style="color: #7e8c8d;">Clue: Line 1 -&nbsp; This book is a narrative history of climatic shifts during the past ten centuries and some of the ways in which people in Europe adapted to them.</span></p><p><br><strong>16. Paragraph E</strong> - <span style="color: rgb(53, 152, 219);" data-mce-style="color: #3598db;">(9) Enough food at last</span><br><span style="color: rgb(126, 140, 141);" data-mce-style="color: #7e8c8d;">Clue: don’t know exactly, but the content of the paragraph relevant to foods</span></p><p><br><strong>17. Paragraph F</strong> - <span style="color: rgb(53, 152, 219);" data-mce-style="color: #3598db;">(4) Human impact on the climate</span><br><span style="color: rgb(126, 140, 141);" data-mce-style="color: #7e8c8d;">Clue: Line 7 -&nbsp; The unprecedented land clearance released vast quantities of carbon dioxide into the atmosphere….as the use of fossil fuels proliferated and greenhouse has levels</span></p><p><strong>18.</strong> <span style="color: rgb(53, 152, 219);" data-mce-style="color: #3598db;">D - Glaciers</span><br><strong>19.</strong> <span style="color: rgb(53, 152, 219);" data-mce-style="color: #3598db;">B - Ice cores</span><br><strong>20</strong>. <span style="color: rgb(53, 152, 219);" data-mce-style="color: #3598db;">A - Climatic shifts</span><br><strong>21</strong>. <span style="color: rgb(53, 152, 219);" data-mce-style="color: #3598db;">H - Storms</span><br><strong>22.</strong> <span style="color: rgb(53, 152, 219);" data-mce-style="color: #3598db;">G - Heatwaves</span></p>
-
-                                </div>
-                                 
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
             <div class="col-12 col-md-4">
                 <div class="card">
                     <div class="card-header">
@@ -140,24 +106,7 @@
                             </div>
                         </div>
                     </div>
-                </div>
-             
-            </div>
-        </div>
-        <div class="row mg-t-10">
-            <div class="col-12 col-md-8">
-                <div class="card">
-                    <div class="card-header">
-                        <h6 class="mg-b-5">Nhận xét</h6>
-                        <p class="tx-12 tx-color-03 mg-b-0">Nhận xét của giáo viên với bài làm</p>
-                    </div>
-                    <div class="card-body">
-                        <div id="teacher-comment"></div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-12 col-md-4">
-                <div class="card teacher-score">
+                    <div class="card teacher-score mg-t-10">
                     <div class="card-header">
                         <h6 class="mg-b-5">Đánh giá</h6>
                         <p class="tx-12 tx-color-03 mg-b-0">Đánh giá bài làm của học viên</p>
@@ -188,8 +137,53 @@
                         </div>
                     </div>
                 </div>
-            
+                </div>
+             
             </div>
+            <div class="col-12 col-md-8">
+                <div class="exc-info">
+                    <div class="question-wrap">
+                        <div class="card">
+                            <div class="card-header">
+                                <h6 class="mg-b-5">Question</h6>
+                                <p class="tx-12 tx-color-03 mg-b-0">Câu hỏi bài tập</p>
+                            </div>
+                            <div class="card-body">
+                                <div class="raw-txt">
+                                    <p>LISTENING LESSON 1: COMPLETION TASK</p>
+                                    <p>Link các bài nghe trong phần practice của bài học hôm nay:</p>
+                                    <p>Exercise 1: https://www.easy-ielts.com/cambridge-listening-book-7-test-3/</p>
+                                    <p>3: http://practicepteonline.com/ielts-listening-test-175/</p>
+                                    <img src="https://app.zim.vn/Upload/exercise/fa9468c0-7508-4f25-9e5b-6f3489a88228.png" alt="image">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card mg-t-10">
+                            <div class="card-header">
+                                <h6 class="mg-b-5">Answer</h6>
+                                <p class="tx-12 tx-color-03 mg-b-0">Phần trả lời của học viên</p>
+                            </div>
+                            <div class="card-body">
+                                <div class="raw-txt" id="student-raw-text">
+                                    <p><strong><span style="color: rgb(24, 160, 133);" data-mce-style="color: #18a085;">Exercise 1:</span></strong></p><p><strong>14. Paragraph A</strong> - <span style="color: rgb(53, 152, 219);" data-mce-style="color: #3598db;">(5) A potential danger arising from boredom.</span><br><span style="color: rgb(126, 140, 141);" data-mce-style="color: #7e8c8d;">Clue: Line 8 -&nbsp; …” if disgust protects humans from infection, boredom them from “infecious” social situations” he suggests.</span></p><p><br><strong>15. Paragraph B</strong> - <span style="color: rgb(53, 152, 219);" data-mce-style="color: #3598db;">(6) Creating a system of classification for feelings of boredom.</span><br><span style="color: rgb(126, 140, 141);" data-mce-style="color: #7e8c8d;">Clue: Line 1 -&nbsp; Thomas Goetz and his team….have recently identified five distinct types: indifferent, calibrating, searching, reactant and apathetic….which measures how positive or negative the feeling is intriguingly.</span></p><p><br><strong>16. Paragraph C</strong> - <span style="color: rgb(53, 152, 219);" data-mce-style="color: #3598db;">(1) The productive outcomes that may result from boredom.</span><br><span style="color: rgb(126, 140, 141);" data-mce-style="color: #7e8c8d;">Clue: Line 2 &amp; 8 -&nbsp; Mann has found that being bored makes us more creative….boring activity is the best for creativity because it allows the mind to wander”</span></p><p><br><strong>17. Paragraph D</strong> - <span style="color: rgb(53, 152, 219);" data-mce-style="color: #3598db;">(4) Problems with a scientific approach to freedom.</span><br><span style="color: rgb(126, 140, 141);" data-mce-style="color: #7e8c8d;">Clue: Line 10 -&nbsp; “ People try to connect with the world and if they are not successful there’s that frustration and irritability”</span></p><p><br><strong>18. Paragraph E</strong> - <span style="color: rgb(53, 152, 219);" data-mce-style="color: #3598db;">(2) What teachers can do to prevent boredom.</span><br><span style="color: rgb(126, 140, 141);" data-mce-style="color: #7e8c8d;">Clue: Line 9 -&nbsp; ...What can we do to alleviate it before it comes to that? Goetz’s group has one suggestion….report less boredom than those who try to avoid it by using snacks, TV or social media for distraction”</span></p><p><br><strong>19. Paragraph F</strong> - <span style="color: rgb(53, 152, 219);" data-mce-style="color: #3598db;">(3) A new explanation and a new cure for boredom.</span><br><span style="color: rgb(126, 140, 141);" data-mce-style="color: #7e8c8d;">Clue: Line 1 &amp; 4 -&nbsp; Psychologist Francoise Wemelsfelder speculates that our over-connected lifestyles might even be a new source of boredom….we should leave our phones alone, and use boredom to motivate us to engage with the would in a more meaningful way.&nbsp;</span></p><p><span style="color: rgb(126, 140, 141);" data-mce-style="color: #7e8c8d;"><br data-mce-bogus="1"></span></p><p><span style="color: rgb(24, 160, 133);" data-mce-style="color: #18a085;"><strong>Exercise 2:</strong></span></p><p><strong>14. Paragraph B</strong> - <span style="color: rgb(53, 152, 219);" data-mce-style="color: #3598db;">(2) The relevance of the Little Ice Age today.</span><br><span style="color: rgb(126, 140, 141);" data-mce-style="color: #7e8c8d;">Clue: Line 4 -&nbsp; …The climatic events of the Little Ice Age did more than help shape the modern world...by complex and still little understood interactions between the atmosphere and the ocean.</span></p><p><br><strong>15. Paragraph D</strong> - <span style="color: rgb(53, 152, 219);" data-mce-style="color: #3598db;">(7) A study convering a thousand years.</span><br><span style="color: rgb(126, 140, 141);" data-mce-style="color: #7e8c8d;">Clue: Line 1 -&nbsp; This book is a narrative history of climatic shifts during the past ten centuries and some of the ways in which people in Europe adapted to them.</span></p><p><br><strong>16. Paragraph E</strong> - <span style="color: rgb(53, 152, 219);" data-mce-style="color: #3598db;">(9) Enough food at last</span><br><span style="color: rgb(126, 140, 141);" data-mce-style="color: #7e8c8d;">Clue: don’t know exactly, but the content of the paragraph relevant to foods</span></p><p><br><strong>17. Paragraph F</strong> - <span style="color: rgb(53, 152, 219);" data-mce-style="color: #3598db;">(4) Human impact on the climate</span><br><span style="color: rgb(126, 140, 141);" data-mce-style="color: #7e8c8d;">Clue: Line 7 -&nbsp; The unprecedented land clearance released vast quantities of carbon dioxide into the atmosphere….as the use of fossil fuels proliferated and greenhouse has levels</span></p><p><strong>18.</strong> <span style="color: rgb(53, 152, 219);" data-mce-style="color: #3598db;">D - Glaciers</span><br><strong>19.</strong> <span style="color: rgb(53, 152, 219);" data-mce-style="color: #3598db;">B - Ice cores</span><br><strong>20</strong>. <span style="color: rgb(53, 152, 219);" data-mce-style="color: #3598db;">A - Climatic shifts</span><br><strong>21</strong>. <span style="color: rgb(53, 152, 219);" data-mce-style="color: #3598db;">H - Storms</span><br><strong>22.</strong> <span style="color: rgb(53, 152, 219);" data-mce-style="color: #3598db;">G - Heatwaves</span></p>
+
+                                </div>
+                                 
+                            </div>
+                        </div>
+                        <div class="card mg-t-10">
+                    <div class="card-header">
+                        <h6 class="mg-b-5">Nhận xét</h6>
+                        <p class="tx-12 tx-color-03 mg-b-0">Nhận xét của giáo viên với bài làm</p>
+                    </div>
+                    <div class="card-body">
+                        <div id="teacher-comment"></div>
+                    </div>
+                </div>
+                    </div>
+                </div>
+            </div>
+           
         </div>
     </div><!-- container -->
 </div><!-- content -->
