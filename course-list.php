@@ -11,16 +11,15 @@
         </ol>
         </nav>
         <!-- End breadcrumb -->
-        
+
         <div class="d-xl-flex align-items-center justify-content-between ">
             <div>
             <h4 class="mg-b-0 tx-spacing--1">Danh sách khoá học</h4>
             </div>
             <div class="d-xl-block">
                 <div class="d-flex justify-content-xl-center mg-t-20 mg-xl-t-0 flex-wrap">
-                   
-                    <a href="#" class="btn btn-primary mg-xl-l-5 mg-r-5 transparent"><i></i>Xem lịch phòng</a>
-                    <a href="#" class="btn btn-primary mg-l-5 mg-r-5 transparent"><i></i>Xem lịch giáo viên</a>
+                    <a href="course-empty-room-check.php" class="btn btn-primary mg-xl-l-5 mg-r-5 transparent"><i></i>Xem lịch phòng</a>
+                    <a href="teacher-schedule-check.php" class="btn btn-primary mg-l-5 mg-r-5 transparent"><i></i>Xem lịch giáo viên</a>
                     <div class="search-form mg-l-5 mg-r-5">
                         <input type="search" class="form-control" placeholder="Search">
                         <button class="btn" type="button"><i data-feather="search"></i></button>
@@ -36,7 +35,6 @@
                             <option value="2">Ngày kết thúc</option>
                         </select>
                     </div>
-                   
                     <a href="#filterCollapse" class="btn btn-primary mg-l-5 mg-r-5 mg-sm-r-0 transparent" role="button" data-toggle="collapse" aria-expanded="false" aria-controls="filterCollapse"><i data-feather="filter"></i></a>
                 </div>
             </div>
@@ -44,68 +42,68 @@
         </div>
 
         <div class="collapse mg-t-10" id="filterCollapse">
-        <div class="card">
-            <div class="card-body">
-                <div class=" d-flex flex-wrap">
-                    <div class="form-group col-md-4 col-6 col-xl-3">
-                        <label class="form-control-label">Chi nhánh:</label>
-                        <select class="custom-select">
-                            <option value="all" selected>Tất cả</option>
-                            <option value="1">Yên Lãng</option>
-                            <option value="2">Huỳnh Lan Khánh</option>
-                            <option value="3">Trần Phú</option>
-                        </select>
-                    </div>
-                    <div class="form-group col-md-4 col-6 col-xl-3">
-                    <label class="form-control-label">Lớp học: </label>
-                        <select class="custom-select">
-                            <option value="all" selected>Tất cả</option>
-                            <option value="1">Yên Lãng</option>
-                            <option value="2">Huỳnh Lan Khánh</option>
-                            <option value="3">Trần Phú</option>
-                        </select>
-                    </div>
-                    
-                    <div class="form-group col-md-4 col-6 col-xl-3">
-                    <label class="form-control-label">Trạng thái: </label>
-                        <select class="custom-select">
-                            <option value="all" selected>Tất cả</option>
-                            <option value="1">Đang mở</option>
-                            <option value="2">Sắp mở</option>
-                            <option value="2">Kết thúc</option>
-                        </select>
-                    </div>
-                    <div class="form-group col-md-4 col-6 col-xl-3">
-                    <label class="form-control-label">Học vụ quản lý: </label>
-                        <select class="custom-select">
-                            <option value="all" selected>Tất cả</option>
-                            <option value="1">Hoàng Lan</option>
-                            <option value="2">Liên Minh</option>
-                            <option value="3">Trần Phú</option>
-                        </select>
-                    </div>
-                    <div class="form-group col-md-4 col-6 col-xl-3">
-                    <label class="form-control-label">Ngày mở: </label>
-                        <input type="text" class="form-control datetimepicker date-only" placeholder="Ngày mở">
-                    </div>
-                    <div class="form-group col-md-4 col-6 col-xl-3">
-                    <label class="form-control-label">Ngày kết thúc: </label>
-                        <input type="text" class="form-control datetimepicker date-only" placeholder="Ngày kết thúc">
-                    </div>
-                    <div class="form-group col-md-4 col-6 col-xl-3">
-                    <label class="form-control-label">Giá tiền từ: </label>
-                        <input type="text" class="form-control" placeholder="Giá tiền từ">
-                    </div>
-                    <div class="form-group col-md-4 col-6 col-xl-3">
-                    <label class="form-control-label">Giá tiền đến: </label>
-                        <input type="text" class="form-control" placeholder="Giá tiền đến">
-                    </div>
-                    <div class="form-group col-12 mg-b-0">
-                        <button type="button" class="btn btn-primary">Lọc kết quả</button>
+            <div class="card">
+                <div class="card-body">
+                    <div class=" d-flex flex-wrap">
+                        <div class="form-group col-md-4 col-6 col-xl-3">
+                            <label class="form-control-label">Chi nhánh:</label>
+                            <select class="custom-select">
+                                <option value="all" selected>Tất cả</option>
+                                <option value="1">Yên Lãng</option>
+                                <option value="2">Huỳnh Lan Khánh</option>
+                                <option value="3">Trần Phú</option>
+                            </select>
+                        </div>
+                        <div class="form-group col-md-4 col-6 col-xl-3">
+                        <label class="form-control-label">Lớp học: </label>
+                            <select class="custom-select">
+                                <option value="all" selected>Tất cả</option>
+                                <option value="1">Yên Lãng</option>
+                                <option value="2">Huỳnh Lan Khánh</option>
+                                <option value="3">Trần Phú</option>
+                            </select>
+                        </div>
+                        
+                        <div class="form-group col-md-4 col-6 col-xl-3">
+                        <label class="form-control-label">Trạng thái: </label>
+                            <select class="custom-select">
+                                <option value="all" selected>Tất cả</option>
+                                <option value="1">Đang mở</option>
+                                <option value="2">Sắp mở</option>
+                                <option value="2">Kết thúc</option>
+                            </select>
+                        </div>
+                        <div class="form-group col-md-4 col-6 col-xl-3">
+                        <label class="form-control-label">Học vụ quản lý: </label>
+                            <select class="custom-select">
+                                <option value="all" selected>Tất cả</option>
+                                <option value="1">Hoàng Lan</option>
+                                <option value="2">Liên Minh</option>
+                                <option value="3">Trần Phú</option>
+                            </select>
+                        </div>
+                        <div class="form-group col-md-4 col-6 col-xl-3">
+                        <label class="form-control-label">Ngày mở: </label>
+                            <input type="text" class="form-control datetimepicker date-only" placeholder="Ngày mở">
+                        </div>
+                        <div class="form-group col-md-4 col-6 col-xl-3">
+                        <label class="form-control-label">Ngày kết thúc: </label>
+                            <input type="text" class="form-control datetimepicker date-only" placeholder="Ngày kết thúc">
+                        </div>
+                        <div class="form-group col-md-4 col-6 col-xl-3">
+                        <label class="form-control-label">Giá tiền từ: </label>
+                            <input type="text" class="form-control" placeholder="Giá tiền từ">
+                        </div>
+                        <div class="form-group col-md-4 col-6 col-xl-3">
+                        <label class="form-control-label">Giá tiền đến: </label>
+                            <input type="text" class="form-control" placeholder="Giá tiền đến">
+                        </div>
+                        <div class="form-group col-12 mg-b-0">
+                            <button type="button" class="btn btn-primary">Lọc kết quả</button>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
         </div>
         <div class="row row-xs d-flex flex-wrap course-list-wrap mg-t-20">
             <div class="col-12 col-md-6 col-xl-4">
