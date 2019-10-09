@@ -31,7 +31,7 @@ $(document).ready(function(){
       },1000);
     });
   //datepicker
-  $.datetimepicker.setLocale('vi');
+  $.datetimepicker.setLocale('en');
 $('.datetimepicker').each(function(){
   $(this).attr('autocomplete','off');
   $(this).datetimepicker({

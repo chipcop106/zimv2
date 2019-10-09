@@ -39,23 +39,23 @@ $(function(){
     }
   })
 
-  // reply form
-  var quill = new Quill('#editor-container', {
-    modules: {
-      toolbar: '#toolbar-container'
-    },
-    placeholder: 'Nội dung...',
-    theme: 'snow'
-  });
+  // // reply form
+  // var quill = new Quill('#editor-container', {
+  //   modules: {
+  //     toolbar: '#toolbar-container'
+  //   },
+  //   placeholder: 'Nội dung...',
+  //   theme: 'snow'
+  // });
 
-  // compose form
-  var quill2 = new Quill('#editor-container2', {
-    modules: {
-      toolbar: '#toolbar-container2'
-    },
-    placeholder: 'Nội dung yêu cầu...',
-    theme: 'snow'
-  });
+  // // compose form
+  // var quill2 = new Quill('#editor-container2', {
+  //   modules: {
+  //     toolbar: '#toolbar-container2'
+  //   },
+  //   placeholder: 'Nội dung yêu cầu...',
+  //   theme: 'snow'
+  // });
 
   $('#mailComposeBtn').on('click', function(){
     $('#mailCompose').addClass('show');
