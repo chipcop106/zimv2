@@ -131,7 +131,7 @@ $(function(){
   // set one mail item as selected in xl breakpoint by default
   // for demo purpose only
   if(window.matchMedia('(min-width: 1200px)').matches) {
-    $('.mail-group-body .media:nth-of-type(2)').addClass('selected');
+    $('.mail-group-body .media:nth-of-type(1)').addClass('selected');
 
     $('.mail-content-header').removeClass('d-none');
     $('.mail-content-body').removeClass('d-none');
