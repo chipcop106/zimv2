@@ -58,7 +58,7 @@
           </div>
           <label class="mail-group-label">Hôm nay</label>
           <ul class="list-unstyled media-list mg-b-0">
-            <li class="media unread">
+            <li class="media">
               <div class="avatar"><span class="avatar-initial rounded-circle bg-indigo">d</span></div>
               <div class="media-body mg-l-15">
                 <div class="tx-color-03 d-flex align-items-center justify-content-between mg-b-2">

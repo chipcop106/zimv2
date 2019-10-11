@@ -7,7 +7,7 @@
             <div class="col-12">
                    <nav aria-label="breadcrumb">
                 <ol class="breadcrumb breadcrumb-style1 mg-b-0">
-                    <li class="breadcrumb-item"><a href="#">Khoá học </a></li>
+                    <li class="breadcrumb-item"><a href="#">Course </a></li>
                     <li class="breadcrumb-item"><a href="#">IELTS - Production </a></li>
                     <li class="breadcrumb-item"><a href="#">WRITING LESSON 9 </a></li>
                     <li class="breadcrumb-item active" aria-current="page">Bài tự luận 20/4</li>
@@ -27,15 +27,15 @@
                         <div class="information-block">
                             <div class="student-info">
                                 <div class="student-course">
-                                    <p class="txt"><span class="lb">Cơ sở:</span> <span class="value">ZIM - 65 Yên Lãng</span></p>
-                                    <p class="txt"><span class="lb">Khoá học:</span> <span class="value">A-IELTS Foundation</span></p>
-                                    <p class="txt"><span class="lb">Ngày khai giảng:</span> <span class="value">18/09/2019</span></p>
-                                    <p class="txt"><span class="lb">Ca học:</span> <span class="value">09:30-11:30</span></p>
-                                    <p class="txt"><span class="lb">Họ và tên:</span> <span class="value">Đặng bảo long</span></p>
+                                    <p class="txt"><span class="lb">Branch:</span> <span class="value">ZIM - 65 Yên Lãng</span></p>
+                                    <p class="txt"><span class="lb">Course:</span> <span class="value">A-IELTS Foundation</span></p>
+                                    <p class="txt"><span class="lb">Opening:</span> <span class="value">18/09/2019</span></p>
+                                    <p class="txt"><span class="lb">Class:</span> <span class="value">09:30-11:30</span></p>
+                                    <p class="txt"><span class="lb">Full name:</span> <span class="value">Đặng bảo long</span></p>
                                 </div>
                                <div class="w-100 mg-t-10">
-                                   <a href="#" class="btn btn-primary mg-md-r-10">Nộp bài</a>
-                                   <a href="#" class="btn btn-warning">Sửa bài</a>
+                                   <a href="#" class="btn btn-primary mg-md-r-10">Submit</a>
+                                   <a href="#" class="btn btn-warning">Cancel</a>
                                 </div>
                             </div>
                         </div>
@@ -53,7 +53,7 @@
                         </div>
                         <div class="card-body">
                             <div class="exc-info mg-b-30">
-                                <p class="title-question tx-16 mg-0 tx-semibold">LISTENING LESSON 1: COMPLETION TASK</p>
+                                <p class="title-question tx-18 mg-0 tx-semibold">LISTENING LESSON 1: COMPLETION TASK</p>
                                 <p class="deadline mg-0 tx-color-03">Deadline: 20/04/2019</p>
                             </div>
                             <div class="raw-txt">

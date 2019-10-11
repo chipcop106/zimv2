@@ -74,7 +74,7 @@
                     <div class="lichday-col-wrap" id="lichday_colwrapper">
                         <table id="customers" class="table table-bordered">
                             <tr class="hd">
-                                <th style="text-align: center;">CA</th>
+                                <th style="text-align: center;">CLASS</th>
                                 <th>Monday <br/>14/10</th>
                                 <th>Tuesday <br/>15/10</th>
                                 <th>Wednesday <br/>16/10</th>
@@ -130,7 +130,7 @@
                                 <td class="off-day"><span class="img-off"><img src="assets/img/day-off.png" alt="icon"></span></td>
                             </tr>
                             <tr class="hd">
-                                <th style="text-align: center;">CA</th>
+                                <th style="text-align: center;">CLASS</th>
                                 <th>Monday <br/>21/10</th>
                                 <th>Tuesday <br/>22/10</th>
                                 <th>Wednesday <br/>23/10</th>

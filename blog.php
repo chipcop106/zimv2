@@ -10,7 +10,6 @@
           <nav aria-label="breadcrumb">
             <ol class="breadcrumb breadcrumb-style1 mg-b-10">
               <li class="breadcrumb-item"><a href="#">Profile</a></li>
-              <li class="breadcrumb-item"><a href="#">Discover</a></li>
               <li class="breadcrumb-item active" aria-current="page">Blog</li>
             </ol>
           </nav>

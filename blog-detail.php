@@ -5,6 +5,7 @@
 
 <div class="content content-fixed">
     <div class="container pd-x-0 pd-lg-x-10 pd-xl-x-0">
+      
         <div class="media d-block d-lg-flex blog-detail">
           <div class="media-body mg-t-30 mg-lg-t-0 pd-x-15 content-blog">
             <div class="post-img-cover">
