@@ -83,7 +83,7 @@
         </div>
         <div class="customer-table mg-t-30">
             <div class="table-responsive">
-                <table class="table table-striped table-vcenter">
+                <table class="table table-striped table-vcenter table-fixed-left">
                     <thead class="thead-light">
                         <tr>
                             <th>Name</th>

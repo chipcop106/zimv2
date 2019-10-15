@@ -1,18 +1,19 @@
 <?php require_once( 'head.php' ); ?>
 <?php require_once( 'header.php' ); ?>
 <div class="content content-fixed">
-    <div class="container pd-x-0 pd-lg-x-10 pd-xl-x-0">
+    <div class="container pd-x-0 pd-lg-x-10 pd-xl-x-0 ">
         <!-- Breadcrumb -->
         <nav aria-label="breadcrumb">
-            <ol class="breadcrumb breadcrumb-style1 mg-b-30">
-                <li class="breadcrumb-item"><a href="#">Customer</a></li>
-                <li class="breadcrumb-item active" aria-current="page">Schedule test</li>
-            </ol>
+        <ol class="breadcrumb breadcrumb-style1 mg-b-30">
+            <li class="breadcrumb-item"><a href="#">Home</a></li>
+            <li class="breadcrumb-item active" aria-current="page">Customer services</li>
+        </ol>
         </nav>
         <!-- End breadcrumb -->
+
         <div class="d-xl-flex align-items-center justify-content-between ">
             <div>
-                <h4 class="mg-b-0 tx-spacing--1">Schedule registry list</h4>
+            <h4 class="mg-b-0 tx-spacing--1">Customers services</h4>
             </div>
             <div class="d-xl-block">
                 <div class="d-flex justify-content-xl-center mg-t-20 mg-xl-t-0 flex-wrap">
@@ -22,19 +23,17 @@
                     </div>
                     <div class="sort-by mg-l-5 mg-r-5">
                         <select class="custom-select">
-                            <option value="" disabled selected>Sort by</option>
+                            <option value="" disabled selected>Sắp xếp theo</option>
                             <option value="all">Name</option>
                             <option value="all">Phone</option>
                             <option value="1">Email</option>
                             <option value="2">Status</option>
                         </select>
                     </div>
-                    <a href="#filterCollapse" class="btn btn-primary mg-l-5 mg-r-5 mg-sm-r-0 transparent" role="button"
-                        data-toggle="collapse" aria-expanded="false" aria-controls="filterCollapse"><i
-                            data-feather="filter"></i></a>
+                    <a href="#filterCollapse" class="btn btn-primary mg-l-5 mg-r-5 mg-sm-r-0 transparent" role="button" data-toggle="collapse" aria-expanded="false" aria-controls="filterCollapse"><i data-feather="filter"></i></a>
                 </div>
             </div>
-
+            
         </div>
 
         <div class="collapse mg-t-10" id="filterCollapse">
@@ -80,139 +79,33 @@
                 </div>
             </div>
         </div>
-        <div class="customer-table mg-t-30">
-            <div class="table-responsive">
-                <table class="table table-striped table-sm collapse-table table-vcenter mg-b-0">
-                    <thead class="thead-light">
-                        <tr>
-                            <th>Customer</th>
-                            <th>Course</th>
-                            <th>Deposit</th>
-                            <th>Note</th>
-                            <th>Date deposit</th>
-                            <th>Date schedule</th>
-                            <th class="no-wrap">Actions</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td class="no-wrap">Trương Đình Lan Thi</td>
-                            <td>[138 Huỳnh Lan Khánh] IELST - Professional 18/04, 18:00 - 20:00</td>
-
-                            <td>10,000,000</td>
-                            <td>HP: 16.500.000, KM: 0, Nợ: 6.050.000, Combo 0-5.5.</td>
-                            <td>02/09/2018</td>
-                            <td>02/09/2018</td>
-                            <td>
-                                 <div class="dropdown dropdown-icon">
-                                    <a href="javascript:;" class="material-icons" id="dropdown-id-2"
-                                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">more_vert</a>
-                                    <div class="dropdown-menu" aria-labelledby="dropdown-id-2">
-                                        <a class="dropdown-item btn-icon" href="#customerDetail" data-toggle="modal"
-                                            data-target="#customerDetail"><i data-feather="eye"></i> View</a>
-                                        <a class="dropdown-item btn-icon" href="#refundRequest" data-toggle="modal"
-                                            data-target="#refundRequest"><i data-feather="dollar-sign"></i>
-                                            Refund request</a>
-
-                                        <a class="dropdown-item btn-icon" href="#" data-toggle="modal" data-target="#convertStudent"><i data-feather="user-plus"></i>
-                                            Convert student</a>
-                                        <a class="dropdown-item btn-icon" href="#" data-toggle="modal" data-target="#cancelStudent"><i data-feather="user-x"></i>
-                                            Cancel registry</a>
-                                    </div>
-                                </div>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td class="no-wrap">Trương Đình Lan Thi</td>
-                            <td>[138 Huỳnh Lan Khánh] IELST - Professional 18/04, 18:00 - 20:00</td>
-
-                            <td>10,000,000</td>
-                            <td>HP: 16.500.000, KM: 0, Nợ: 6.050.000, Combo 0-5.5.</td>
-                            <td>02/09/2018</td>
-                            <td>02/09/2018</td>
-                            <td>
-                                 <div class="dropdown dropdown-icon">
-                                    <a href="javascript:;" class="material-icons" id="dropdown-id-2"
-                                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">more_vert</a>
-                                    <div class="dropdown-menu" aria-labelledby="dropdown-id-2">
-                                        <a class="dropdown-item btn-icon" href="#customerDetail" data-toggle="modal"
-                                            data-target="#customerDetail"><i data-feather="eye"></i> View</a>
-                                        <a class="dropdown-item btn-icon" href="#refundRequest" data-toggle="modal"
-                                            data-target="#refundRequest"><i data-feather="dollar-sign"></i>
-                                            Refund request</a>
-
-                                        <a class="dropdown-item btn-icon" href="#" data-toggle="modal" data-target="#convertStudent"><i data-feather="user-plus"></i>
-                                            Convert student</a>
-                                        <a class="dropdown-item btn-icon" href="#" data-toggle="modal" data-target="#cancelStudent"><i data-feather="user-x"></i>
-                                            Cancel registry</a>
-                                    </div>
-                                </div>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td class="no-wrap">Trương Đình Lan Thi</td>
-                            <td>[138 Huỳnh Lan Khánh] IELST - Professional 18/04, 18:00 - 20:00</td>
-
-                            <td>10,000,000</td>
-                            <td>HV không sắp xếp được lịch học nên học song song 2 lớp: Pronunciation lớp GR1009 và
-                                Grammar lớp mới</td>
-                            <td>02/09/2018</td>
-                            <td>02/09/2018</td>
-                            <td>
-                                 <div class="dropdown dropdown-icon">
-                                    <a href="javascript:;" class="material-icons" id="dropdown-id-2"
-                                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">more_vert</a>
-                                    <div class="dropdown-menu" aria-labelledby="dropdown-id-2">
-                                        <a class="dropdown-item btn-icon" href="#customerDetail" data-toggle="modal"
-                                            data-target="#customerDetail"><i data-feather="eye"></i> View</a>
-                                        <a class="dropdown-item btn-icon" href="#refundRequest" data-toggle="modal"
-                                            data-target="#refundRequest"><i data-feather="dollar-sign"></i>
-                                            Refund request</a>
-
-                                        <a class="dropdown-item btn-icon" href="#" data-toggle="modal" data-target="#convertStudent"><i data-feather="user-plus"></i>
-                                            Convert student</a>
-                                        <a class="dropdown-item btn-icon" href="#" data-toggle="modal" data-target="#cancelStudent"><i data-feather="user-x"></i>
-                                            Cancel registry</a>
-                                    </div>
-                                </div>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td class="no-wrap">Trương Đình Lan Thi</td>
-                            <td>[138 Huỳnh Lan Khánh] IELST - Professional 18/04, 18:00 - 20:00</td>
-
-                            <td>10,000,000</td>
-                            <td>HP: 16.500.000, KM: 0, Nợ: 2.050.000, Combo 0-5.5 => Hoàn tiền</td>
-                            <td>02/09/2018</td>
-                            <td>02/09/2018</td>
-                            <td>
-                                 <div class="dropdown dropdown-icon">
-                                    <a href="javascript:;" class="material-icons" id="dropdown-id-2"
-                                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">more_vert</a>
-                                    <div class="dropdown-menu" aria-labelledby="dropdown-id-2">
-                                        <a class="dropdown-item btn-icon" href="#customerDetail" data-toggle="modal"
-                                            data-target="#customerDetail"><i data-feather="eye"></i> View</a>
-                                        <a class="dropdown-item btn-icon" href="#refundRequest" data-toggle="modal"
-                                            data-target="#refundRequest"><i data-feather="dollar-sign"></i>
-                                            Refund request</a>
-
-                                        <a class="dropdown-item btn-icon" href="#" data-toggle="modal" data-target="#convertStudent"><i data-feather="user-plus"></i>
-                                            Convert student</a>
-                                        <a class="dropdown-item btn-icon" href="#" data-toggle="modal" data-target="#cancelStudent"><i data-feather="user-x"></i>
-                                            Cancel registry</a>
-                                    </div>
-                                </div>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td class="no-wrap">Trương Đình Lan Thi</td>
-                            <td>[138 Huỳnh Lan Khánh] IELST - Professional 18/04, 18:00 - 20:00</td>
-
-                            <td>10,000,000</td>
-                            <td>HP: 16.500.000, KM: 0, Nợ: 2.050.000, Combo 0-5.5 => Hoàn tiền</td>
-                            <td>02/09/2018</td>
-                            <td>02/09/2018</td>
-                            <td>
+       <div class="customer-table mg-t-30">
+           <div class="responsive-table">
+               <table class="table table-striped table-vcenter">
+                   <thead class="thead-light">
+                       <tr>
+                           <th>Customer</th>
+                           <th>Services</th>
+                           <th>Price</th>
+                           <th>Payment method</th>
+                           <th>Note</th>
+                           <th>Date reserve</th>
+                           <th>Date exam</th>
+                           <th>Provider</th>
+                           <th>Actions</th>
+                       </tr>
+                   </thead>
+                   <tbody>
+                       <tr>
+                            <td>Truong Van Lam</td>
+                           <td>Đăng ký thi IELTS tại BC hoặc IDP</td>
+                           <td>3,000,000</td>
+                           <td>chuyển khoản</td>
+                           <td>ghi chú ở đây</td>
+                           <td>27/0/2019</td>
+                           <td>27/04/2019</td>
+                           <td>British Council</td>
+                           <td>
                                 <div class="dropdown dropdown-icon">
                                     <a href="javascript:;" class="material-icons" id="dropdown-id-2"
                                         data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">more_vert</a>
@@ -222,35 +115,28 @@
                                         <a class="dropdown-item btn-icon" href="#refundRequest" data-toggle="modal"
                                             data-target="#refundRequest"><i data-feather="dollar-sign"></i>
                                             Refund request</a>
-
-                                        <a class="dropdown-item btn-icon" href="#" data-toggle="modal" data-target="#convertStudent"><i data-feather="user-plus"></i>
-                                            Convert student</a>
-                                        <a class="dropdown-item btn-icon" href="#" data-toggle="modal" data-target="#cancelStudent"><i data-feather="user-x"></i>
-                                            Cancel registry</a>
+                                        <a class="dropdown-item btn-icon" href="#" data-toggle="modal" data-target="#addScore"><i data-feather="edit"></i>
+                                            Add score</a>
                                     </div>
                                 </div>
-                            </td>
-                        </tr>
-
-
-                    </tbody>
-                </table>
-            </div>
-        </div>
-        <nav aria-label="Page navigation" class="mg-t-30">
+                           </td>
+                       </tr>
+                      
+                   </tbody>
+               </table>
+           </div>
+       </div>
+        <nav aria-label="Page navigation" class="mg-t-10">
             <ul class="pagination mg-b-0 justify-content-end">
-                <li class="page-item disabled"><a class="page-link page-link-icon" href="#"><i
-                            data-feather="chevron-left"></i></a></li>
+                <li class="page-item disabled"><a class="page-link page-link-icon" href="#"><i data-feather="chevron-left"></i></a></li>
                 <li class="page-item active"><a class="page-link" href="#">1</a></li>
                 <li class="page-item"><a class="page-link" href="#">2</a></li>
                 <li class="page-item"><a class="page-link" href="#">3</a></li>
-                <li class="page-item"><a class="page-link page-link-icon" href="#"><i
-                            data-feather="chevron-right"></i></a></li>
+                <li class="page-item"><a class="page-link page-link-icon" href="#"><i data-feather="chevron-right"></i></a></li>
             </ul>
         </nav>
     </div><!-- container -->
 </div><!-- content -->
-
 
 <!-- Modal customer info-->
 <div class="modal fade" id="customerDetail" tabindex="-1" role="dialog" aria-labelledby="customerDetailTitle"
@@ -527,109 +413,64 @@
     </div>
 </div>
 
-<!-- Modal convert student info-->
-<div class="modal fade" id="convertStudent" tabindex="-1" role="dialog" aria-labelledby="convertStudentTitle"
+
+<!-- Modal add score -->
+<div class="modal fade" id="addScore" tabindex="-1" role="dialog" aria-labelledby="addScoreTitle"
     aria-hidden="true">
     <div class="modal-dialog modal-lg" role="document">
         <div class="modal-content">
             <div class="modal-header">
-                <h5 class="modal-title" id="convertStudentTitle">Convert student</h5>
+                <h5 class="modal-title" id="addScoreTitle">Cancel student</h5>
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true">&times;</span>
                 </button>
             </div>
             <div class="modal-body">
                 <div class="form-row">
-                    <div class="form-group col-sm 12">
-                        <select name="course" id="" class="custom-select select2">
-                            <option value="" disabled selected>Select course</option>
-                            <option value="">[ZIM – 65 Yên Lãng] - A-IELTS Get Ready, 05/10, 19:00-21:00,  [13%]</option>
-                            <option value="">[ZIM – 65 Yên Lãng] - A-IELTS Get Ready, 05/10, 19:00-21:00,  [13%]</option>
+                    <div class="col-sm-6 form-group">
+                        <label for="brand-refund">Examination</label>
+                        <select name="refund-brand" id="brand-refund" class="custom-select select2">
+                            <option value="" selected disabled>Select examination</option>
+                            <option value="1">20/01/2019</option>
+                            <option value="1">20/01/2019</option>
                         </select>
                     </div>
-                </div>
-                <div class="form-row">
                     <div class="col-sm-6 form-group">
-                        <label for="if-payment-method" class="">Price</label>
-                        <input type="text" class="form-control" placeholder="" value="19,000,000" disabled>
-                    </div>
-                    <div class="col-sm-6 form-group">
-                        <label for="if-deposited" class="">Deposited</label>
-                        <input type="tel" class="form-control" id="if-deposited" placeholder="0" data-type="currency"
-                            value="10,000,000" disabled>
-                    </div>
-                </div>
-                <div class="form-row">
-                    <div class="col-sm-4 form-group">
-                        <label for="promotion_code" class="">Promotion code</label>
-                        <input type="tel" class="form-control" id="promotion_code"
-                            placeholder="Promotion code" value="">
-                        <a href="javascript:;" class="search-number"><i data-feather="search"></i></a>
-                    </div>
-                    <div class="col-sm-4 form-group">
-                        <label class="">Discount</label>
-                        <input type="text" class="form-control" placeholder="" value="2,000,000" disabled>
-                    </div>
-                    <div class="col-sm-4 form-group">
-                        <label class="">Amount remaining</label>
-                        <input type="tel" class="form-control" placeholder="0" data-type="currency"
-                            value="10,000,000" disabled>
-                    </div>
-                </div>
-                <div class="form-row">
-                    <div class="col-sm-4 form-group">
-                        <label class="">Checkout</label>
-                        <input type="text" class="form-control" placeholder="" value="2,000,000" data-type="currency">
-                    </div>
-                    <div class="col-sm-4 form-group">
-                        <label class="">Payment method</label>
-                        <select name="refund-brand" id="brand-refund" class="custom-select">
-                            <option value="" selected disabled>Select methid</option>
-                            <option value="1">Chuyen khoan</option>
-                            <option value="1">Tien mặt</option>
-                        </select>
-                    </div>
-                    <div class="col-sm-4 form-group">
-                        <label class="">Date checkout</label>
-                        <input type="text" class="form-control datetimepicker date-only" placeholder="dd/mm/yyyy">
+                        <label for="if-date-exam" class="">Date exam</label>
+                        <input type="text" class="form-control datetimepicker date-only" id="if-date-exam" placeholder="dd/mm/yyyy">
                     </div>
                 </div>
                 <div class="form-row">
                     <div class="col-sm-3 form-group">
-                        <label for="brand-refund">Brand refund</label>
-                        <select name="refund-brand" id="brand-refund" class="custom-select select2">
-                            <option value="" selected disabled>Select branch</option>
-                            <option value="1">Yen Lang</option>
-                        </select>
+                        <label>LISTENING</label>
+                        <input type="text" class="form-control" placeholder="0">
                     </div>
-                    <div class="col-sm-9 form-group">
-                        <label for="if-Note" class="">Note</label>
-                        <input type="text" class="form-control" id="if-note" placeholder="Note schedule">
+                    <div class="col-sm-3 form-group">
+                        <label>SPEAKING</label>
+                        <input type="text" class="form-control" placeholder="0">
+                    </div>
+                    <div class="col-sm-3 form-group">
+                        <label>READING</label>
+                        <input type="text" class="form-control" placeholder="0">
+                    </div>
+                    <div class="col-sm-3 form-group">
+                        <label>WRITTING</label>
+                        <input type="text" class="form-control" placeholder="0">
                     </div>
                 </div>
-            </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                <button type="button" class="btn btn-primary">Save changes</button>
-            </div>
-        </div>
-    </div>
-</div>
-
-<!-- Modal cancel -->
-<div class="modal fade" id="cancelStudent" tabindex="-1" role="dialog" aria-labelledby="cancelStudentTitle"
-    aria-hidden="true">
-    <div class="modal-dialog modal-lg" role="document">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h5 class="modal-title" id="cancelStudentTitle">Cancel student</h5>
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true">&times;</span>
-                </button>
-            </div>
-            <div class="modal-body">
-                <div class="col-sm-12 form-group">
-                    <input type="text" class="form-control" placeholder="Reason...">
+                <div class="form-row">
+                    <div class="col-sm-3 form-group">
+                        <label>TASK 1</label>
+                        <input type="text" class="form-control" placeholder="0">
+                    </div>
+                    <div class="col-sm-3 form-group">
+                        <label>TASK 2</label>
+                        <input type="text" class="form-control" placeholder="0">
+                    </div>
+                    <div class="col-sm-6 form-group">
+                        <label>OVERALL</label>
+                        <input type="text" class="form-control" placeholder="0">
+                    </div>
                 </div>
             </div>
             <div class="modal-footer">
@@ -640,8 +481,3 @@
     </div>
 </div>
 <?php require_once( 'footer.php' ); ?>
-<script>
-$(document).ready(function() {
-
-});
-</script>

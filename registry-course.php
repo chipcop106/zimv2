@@ -135,14 +135,14 @@
                             <div class="col-sm-12 form-group">
                                 <label for="sc_reservator" class="">Form type</label>
                                 <select name="Reservator" id="form-type" class="form-control">
-                                    <option value=""  disabled>Select form type</option>
-                                    <option value="#reg-course" selected>Đăng ký học</option>
+                                    <option value="" selected disabled>Select form type</option>
+                                    <option value="#reg-course" >Đăng ký học</option>
                                     <option value="#reg-schedule">Hẹn đăng ký</option>
                                     <option value="#reg-service">Mua dịch vụ</option>
                                 </select>
                             </div>
                         </div>
-                        <div id="reg-course" class="form-template show">
+                        <div id="reg-course" class="form-template">
                             <div class="form-row">
                                 <div class="col-sm-6 form-group">
                                     <label class="">Branch</label>

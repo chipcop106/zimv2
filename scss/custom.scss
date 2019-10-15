@@ -2037,3 +2037,20 @@ table.table-vcenter {
 .navigation.mg-t-10 {
     margin-top: 30px;
 }
+
+.table {
+    &.table-fixed-left {
+        tr th:first-child,
+        tr td:first-child {
+            position: sticky;
+            left: 0;
+        }
+    }
+    &.table-fixed-right {
+        tr th:last-child,
+        tr td:last-child {
+            position: sticky;
+            right: 0;
+        }
+    }
+}
