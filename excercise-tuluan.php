@@ -105,7 +105,7 @@
                             </div>
                             <div class="tab-pane fade" id="upload-panel" role="tabpanel" aria-labelledby="upload-tab">
                             <div class="audio-upload">
-                            <input type="file" class="file-pond" multiple/>
+                                <input type="file" class="file-pond" multiple/>
                             </div>
                             </div>
 

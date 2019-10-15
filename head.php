@@ -21,6 +21,7 @@
     <link href="lib/quill/quill.snow.css" rel="stylesheet">
     <link href="lib/quill/quill.snow.css" rel="stylesheet">
     <link href="lib/filepond/filepond.css" rel="stylesheet">
+    <link href="lib/filepond-preview/filepond-plugin-media-preview.min.css" rel="stylesheet">
 
     <!-- Mona CSS -->
     <link rel="stylesheet" href="assets/css/dashforge.css?v=1.3">

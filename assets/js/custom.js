@@ -1,4 +1,5 @@
 $(document).ready(function() {
+    FilePond.registerPlugin(FilePondPluginMediaPreview);
 
     //detail info
     $("body").on("click", ".edit-mode", function(e) {
@@ -143,4 +144,5 @@ $(document).ready(function() {
             }
         });
     })
+    $('body').on('show.bs.dropdown', '.table-responsive', function() { $(this).css("overflow", "visible"); }).on('hide.bs.dropdown', '.table-responsive', function() { $(this).css("overflow", "auto"); });
 })

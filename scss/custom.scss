@@ -1970,3 +1970,70 @@ table.table-vcenter {
 .email-form-template .form-fieldset .form-group:last-child {
     margin-bottom: 20px;
 }
+
+.docs-detail-wrap {
+    table {
+        td,
+        th {
+            text-align: center;
+        }
+        .tr-lesson {
+            counter-increment: docsNumb;
+            select {
+                max-width: 300px;
+                text-align-last: center;
+            }
+            &.odd {
+                background: #f8f8f8;
+            }
+            .class-hour span:before {
+                content: counter(docsNumb);
+            }
+        }
+    }
+}
+
+.truncate {
+    max-width: 250px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.cur-answer {
+    .custom-control-label {
+        width: 100%;
+    }
+}
+
+.create_notification {
+    #select-role {
+        max-width: 200px;
+    }
+}
+
+.collapse-row {
+    >td {
+        padding: 0;
+        border: 0;
+        .collapse-content {
+            padding: 5px 10px;
+            display: none;
+        }
+    }
+}
+
+.form-template {
+    display: none;
+    &.show {
+        display: block;
+    }
+}
+
+.table {
+    margin-bottom: 0;
+}
+
+.navigation.mg-t-10 {
+    margin-top: 30px;
+}

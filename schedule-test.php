@@ -44,6 +44,9 @@
                                     <label for="address" class="">Address</label>
                                     <input type="tel" class="form-control" id="address" placeholder="Your address">
                                 </div>
+                                <div class="col-sm-12 form-group">
+                                   
+                                </div>
                             </div>
                             <div class="form-row">
                                 <div class="col-sm-6 form-group">
@@ -63,7 +66,7 @@
                                 </div>
                                 <div class="col-sm-6 form-group">
                                 <label for="select_job" class="">Job</label>
-                                <select name="job" id="select_job" class="form-control">
+                                <select name="job" id="select_job" class="custom-select">
                                         <option value="" disabled selected>Select job</option>
                                         <option value="student">Student</option>
                                         <option value="student">Student</option>
@@ -106,7 +109,7 @@
                         <div class="form-row">
                             <div class="col-sm-12 form-group">
                                 <label for="sc_reservator" class="">Reservator</label>
-                                <select name="Reservator" id="sc_Reservator" class="form-control select2">
+                                <select name="Reservator" id="sc_Reservator" class="custom-select select2">
                                     <option value="" selected disabled>Select people</option>
                                     <option value="">Truong Thuc</option>
                                     <option value="">Truong Thuc</option>
@@ -118,7 +121,7 @@
                         <div class="form-row">
                             <div class="col-sm-12 form-group">
                                 <label for="sc_branch" class="">Branch</label>
-                                <select name="branch" id="sc_branch" class="form-control select2">
+                                <select name="branch" id="sc_branch" class="custom-select select2">
                                     <option value="" selected disabled>Select branch</option>
                                     <option value="">65 Yen Lang</option>
                                     <option value="">65 Yen Lang</option>
