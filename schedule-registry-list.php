@@ -325,19 +325,21 @@
                     </div>
 
                     <div class="form-row">
+                      
                         <div class="col-sm-12 form-group">
                             <div class=" d-flex align-items-center">
                                 <label class="mg-b-1">Sex</label>
                                 <div class="mg-l-20 custom-control custom-radio">
-                                    <input type="radio" name="sex" class="custom-control-input" checked>
-                                    <label class="custom-control-label">Male</label>
+                                    <input type="radio" name="sex" class="custom-control-input" id="sex-male">
+                                    <label for="sex-male" class="custom-control-label">Male</label>
                                 </div>
                                 <div class="mg-l-20 custom-control custom-radio">
-                                    <input type="radio" name="sex" class="custom-control-input">
-                                    <label class="custom-control-label">Female</label>
+                                    <input type="radio" name="sex" class="custom-control-input" id="sex-female">
+                                    <label for="sex-female" class="custom-control-label">Female</label>
                                 </div>
                             </div>
                         </div>
+                        <div class="form-group"></div>
                     </div>
                     <div class="form-row">
                         <div class="col-sm-6 form-group">
@@ -368,62 +370,95 @@
                     </div>
                 </fieldset>
                 <fieldset class="form-fieldset mg-t-30">
-                    <legend>Test Information</legend>
+                    <legend>Registry schedule information</legend>
                     <div class="form-row">
                         <div class="col-sm-6 form-group">
-                            <label for="if-suggestor" class="">Suggestor</label>
-                            <input type="tel" class="form-control" id="if-suggestor"
-                                placeholder="Suggestor" value="">
+                            <label for="if-place" class="">Place</label>
+                            <select name="place" id="if-place" class="custom-select">
+                                <option value="" selected disabled>Select place</option>
+                                <option value="">Hồ Chí Minh</option>
+                                <option value="Hà Nôi">Hà Nội</option>
+                            </select>
                         </div>
                         <div class="col-sm-6 form-group">
-                            <label for="if_teacher" class="">Teacher</label>
-                            <input type="text" class="form-control" id="if_teacher" placeholder="Teacher">
-                        </div>
-                    </div>
-                    <div class="form-row">
-                        <div class="col-sm-3 form-group">
-                        <label for="if-listening" class="">Listening</label>
-                        <input type="text" class="form-control" id="if-listening" placeholder="">
-                        </div>
-                        <div class="col-sm-3 form-group">
-                        <label for="if-speaking" class="">Speaking</label>
-                        <input type="text" class="form-control" id="if-speaking"
-                                placeholder="">
-                        </div>
-                        <div class="col-sm-3 form-group">
-                        <label for="if-reading" class="">Reading</label>
-                        <input type="text" class="form-control" id="if-reading" placeholder="">
-                        </div>
-                        <div class="col-sm-3 form-group">
-                        <label for="if-writing" class="">Writing</label>
-                        <input type="text" class="form-control" id="if-writing"
-                                placeholder="">
+                            <label for="if-course" class="">Course</label>
+                            <select name="course" id="if-course" class="custom-select">
+                                <option value="" selected disabled>Select course</option>
+                                <option value="">A IELST - Advanced</option>
+                                <option value="">A IELST - Advanced</option>
+                            </select>
                         </div>
                     </div>
                     <div class="form-row">
                         <div class="col-sm-6 form-group">
-                        <label for="if-vocal" class="">Vocal</label>
-                        <input type="text" class="form-control" id="if-vocal"
-                                placeholder="">
+                            <label for="if-Branch" class="">Branch</label>
+                            <select name="Branch" id="if-Branch" class="custom-select">
+                                <option value="" selected disabled>Select Branch</option>
+                                <option value="">Yen Lang</option>
+                                <option value="Hà Nôi">Huynh Lan Khánh</option>
+                            </select>
                         </div>
                         <div class="col-sm-6 form-group">
-                        <label for="if-fee" class="">Fee</label>
-                        <input type="text" class="form-control" id="if-fee"
-                                placeholder="">
+                            <label for="if-Time" class="">Time</label>
+                            <select name="Time" id="if-Time" class="custom-select">
+                                <option value="" selected disabled>Select Time</option>
+                                <option value="">18:00 - 19:30</option>
+                                <option value="">18:00 - 19:30</option>
+                            </select>
                         </div>
                     </div>
                     <div class="form-row">
+                        <div class="col-sm-3 form-group">
+                        <label for="if-Date" class="">Date schedule</label>
+                        <input type="text" class="form-control datetimepicker date-only" id="if-Date"
+                                placeholder="dd/mm/yyyy">
+                        </div>
+                        <div class="col-sm-9 form-group">
+                        <label for="if-Note" class="">Note</label>
+                        <input type="text" class="form-control" id="if-note"
+                                placeholder="Note schedule">
+                        </div>
+                    </div>
+                   
+                </fieldset>
+                <fieldset class="form-fieldset mg-t-30">
+                    <legend>Additional deposit</legend>
+                    <div class="form-row">
+                        <div class="col-sm-4 form-group">
+                            <label for="if-payment-method" class="">Method payment</label>
+                            <select name="payment-method" id="if-payment-method" class="custom-select">
+                                <option value="" selected disabled>Select method</option>
+                                <option value="">Tiền mặt</option>
+                                <option value="">Chuyển khoản</option>
+                            </select>
+                        </div>
+                        <div class="col-sm-4 form-group">
+                            <label for="if-Money" class="">Money</label>
+                            <input type="tel" class="form-control" id="if-Money"
+                                placeholder="0" data-type="currency">
+                        </div>
+                       
+                        <div class="col-sm-4 form-group">
+                            <label for="if-branch-bill" class="">Branch receive</label>
+                            <select name="branch-bill" id="if-branch-bill" class="custom-select select2">
+                                <option value="" selected disabled>Select course</option>
+                                <option value="">Yen Lang</option>
+                                <option value="">Yen Lang</option>
+                            </select>
+                        </div>
+                       
+                    </div>
+        
+                    <div class="form-row">
+                        <div class="form-group">
+                        </div>
                         <div class="col-sm-12 form-group">
-                        <label for="if-address" class="">Address</label>
-                        <input type="text" class="form-control" id="if-address" placeholder="Your address">
+                        <label for="if-Note" class="">Note</label>
+                        <input type="text" class="form-control" id="if-note"
+                                placeholder="Note schedule">
                         </div>
                     </div>
-                    <div class="form-row mg-t-20">
-                        <div class="col-sm-12 ">
-                        <label for="if-address" class="">Note</label>
-                        <textarea name="" id="" rows="3" class="form-control"></textarea>
-                        </div>
-                    </div>
+                   
                 </fieldset>
             </div>
       </div>
@@ -586,6 +621,6 @@
 <?php require_once( 'footer.php' ); ?>
 <script>
 $(document).ready(function() {
-
+    
 });
 </script>

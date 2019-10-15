@@ -31,12 +31,13 @@ $(document).ready(function() {
         let $parent = $(this).closest('.modal');
         if ($parent.length > 0) {
             $this.select2({
-                dropdownParent: $parent,
+                dropdownParent: $parent.find('.modal-body'),
             })
         } else {
             $this.select2();
         }
     });
+
 
     $('#scroll-to-top').on('click', function() {
         $('html,body').animate({

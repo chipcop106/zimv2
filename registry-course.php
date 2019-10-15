@@ -88,12 +88,12 @@
                                     <div class=" d-flex align-items-center">
                                         <label class="mg-b-1">Sex</label>
                                         <div class="mg-l-20 custom-control custom-radio">
-                                            <input type="radio" name="sex" class="custom-control-input" checked>
-                                            <label class="custom-control-label">Male</label>
+                                            <input type="radio" name="sex" class="custom-control-input" id="sex-male">
+                                            <label for="sex-male" class="custom-control-label">Male</label>
                                         </div>
                                         <div class="mg-l-20 custom-control custom-radio">
-                                            <input type="radio" name="sex" class="custom-control-input">
-                                            <label class="custom-control-label">Female</label>
+                                            <input type="radio" name="sex" class="custom-control-input" id="sex-female">
+                                            <label for="sex-female" class="custom-control-label">Female</label>
                                         </div>
                                     </div>
                                 </div>
