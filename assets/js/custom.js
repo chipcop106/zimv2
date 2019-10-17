@@ -1,5 +1,4 @@
 $(document).ready(function() {
-    FilePond.registerPlugin(FilePondPluginMediaPreview);
 
     //detail info
     $("body").on("click", ".edit-mode", function(e) {
