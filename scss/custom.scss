@@ -1808,9 +1808,7 @@ table.table-vcenter {
 }
 
 .study-time {
-    table td:not(.sticky-col) {}
     table td.hasVal {
-        min-width: 200px;
         background: #fbfff1;
         a {
             color: $primary-txt-color;
@@ -1820,6 +1818,7 @@ table.table-vcenter {
         width: 50px;
     }
     table {
+        table-layout: fixed;
         th {
             background: #eceff3;
             text-align: center;
@@ -1828,6 +1827,10 @@ table.table-vcenter {
         }
         td:hover {
             outline: 1px solid $primary-color;
+        }
+        td:not(.sticky-col) {
+            width: 200px;
+            font-size: 12px;
         }
     }
     .table-responsive {
@@ -2053,4 +2056,105 @@ table.table-vcenter {
             right: 0;
         }
     }
+}
+
+.course-horizental {
+    box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, .07);
+    margin-bottom: 15px;
+    .list-wrap {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+    .cr-item {
+        padding: 20px;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.04);
+        &:not(.hd):hover {
+            background: #efefef;
+        }
+        &.hd {
+            padding: 10px 20px;
+        }
+        .badge {
+            padding: 5px 10px;
+            font-size: 12px;
+            vertical-align: middle;
+        }
+    }
+}
+
+.select-with-label {
+    border: 1px solid rgba(0, 0, 0, .14);
+    padding-left: 10px;
+    border-radius: 0.25rem;
+    select {
+        border: 0;
+        &.custom-select:focus {
+            outline: 0;
+            box-shadow: none;
+        }
+    }
+    .feather-filter {
+        width: 15px;
+    }
+}
+
+.post-manager {
+    td.check-column {
+        width: 50px;
+    }
+}
+
+.post-manager {
+    table.fixed {
+        td {
+            &.author,
+            &.visibility,
+            &.date {
+                width: 15%;
+            }
+            &.banner,
+            &.display {
+                width: 10%;
+            }
+        }
+        td {
+            &.title-post {
+                strong a {
+                    text-transform: uppercase;
+                }
+            }
+        }
+        .row-actions {
+            font-size: 13px;
+            span {
+                a {
+                    color: #4f8fea;
+                }
+            }
+            visibility: hidden;
+        }
+        tr:hover {
+            .row-actions {
+                visibility: visible;
+            }
+        }
+    }
+}
+
+.fix-container {
+    max-width: 768px;
+    margin: 0 auto;
+}
+
+#calendar .event select {
+    color: #000;
+    margin: 0 4px;
+    width: calc((100% / 2) - 8px);
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+#calendar .event select:last-of-type {
+    width: calc(100% - 8px);
 }
