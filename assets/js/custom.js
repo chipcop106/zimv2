@@ -1,4 +1,28 @@
 $(document).ready(function() {
+    //Drag tabble
+    var elementScroll = document.querySelectorAll(".table-responsive");
+
+    if (elementScroll != undefined || elementScroll != null) {
+        elementScroll.forEach(function(element) {
+            var mx = 0;
+            element.addEventListener("mousedown", function(e) {
+                this.sx = this.scrollLeft;
+                mx = e.pageX - this.offsetLeft;
+
+                this.addEventListener("mousemove", mouseMoveFunction);
+            });
+            element.addEventListener("mouseup", function(e) {
+                this.removeEventListener("mousemove", mouseMoveFunction);
+                mx = 0;
+            });
+
+            function mouseMoveFunction(e) {
+                var mx2 = e.pageX - this.offsetLeft;
+                if (mx) this.scrollLeft = this.sx + mx - mx2;
+            }
+        });
+    }
+
 
     //detail info
     $("body").on("click", ".edit-mode", function(e) {
