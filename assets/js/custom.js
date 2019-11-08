@@ -1,4 +1,23 @@
 $(document).ready(function() {
+    $('body').on('click', function() {
+        $('.off-canvas').removeClass('show');
+    });
+    $('.open-chat-nav').on('click', function(e) {
+        e.stopPropagation();
+        var target = $(this).attr('href');
+        $(target).addClass('show');
+    });
+    $('.close-sidenav').on('click', function(e) {
+        e.preventDefault();
+        $(this).closest('.off-canvas').removeClass('show');
+    });
+    $('body').on('click', '.off-canvas', function(e) {
+        e.preventDefault();
+        e.stopPropagation();
+        e.stopImmediatePropagation();
+        return false;
+    });
+
     //Drag tabble
     var elementScroll = document.querySelectorAll(".table-responsive");
 
