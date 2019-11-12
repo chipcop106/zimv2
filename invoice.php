@@ -169,8 +169,6 @@ p.note-line:before {content: '-';position: absolute;right: 100%;}
     </div><!-- container -->
 </div><!-- content -->
 <?php require_once( 'footer.php' ); ?>
-
-
 <script>
 $(document).ready(function() {
   $('.btn-print').on('click',function(){

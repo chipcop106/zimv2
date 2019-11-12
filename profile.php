@@ -205,7 +205,7 @@
           </div><!-- media-body -->
           <div class="profile-sidebar mg-t-40 mg-lg-t-0 pd-lg-l-25">
             <div class="row">
-            <div class="col-sm-6 col-md-5 col-lg">
+            <div class="col-sm-6 col-md-5 col-lg-12">
                 <div class="d-flex align-items-center justify-content-between mg-b-20">
                   <h6 class="tx-13 tx-spacng-1 tx-uppercase tx-semibold mg-b-0">Most Viewed</h6>
                   <a href="" class="link-03">View all</a>
@@ -267,7 +267,7 @@
                   </li>
                 </ul>
               </div><!-- col -->
-              <div class="col-sm-6 col-md-5 col-lg">
+              <div class="col-sm-6 col-md-5 col-lg-12">
                 <div class="d-flex align-items-center justify-content-between mg-b-20">
                   <h6 class="tx-13 tx-spacng-1 tx-uppercase tx-semibold mg-b-0">Most Viewed</h6>
                   <a href="" class="link-03">View all</a>
@@ -329,7 +329,7 @@
                   </li>
                 </ul>
               </div><!-- col -->
-              <div class="col-sm-6 col-md-5 col-lg mg-t-30 mg-sm-t-0 mg-lg-t-40">
+              <div class="col-sm-6 col-md-5 col-lg-12 mg-t-30 mg-sm-t-0 mg-lg-t-40">
                 <div class="d-flex align-items-center justify-content-between mg-b-20">
                   <h6 class="tx-13 tx-spacing-1 tx-uppercase tx-semibold mg-b-0">Recent comments</h6>
                 </div>
