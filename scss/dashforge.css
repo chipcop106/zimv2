@@ -1,45 +1,35 @@
 /*
-Error: Undefined variable: "$red".
-        on line 41 of /Users/datcodero/.bitnami/stackman/machines/xampp/volumes/root/htdocs/zimdemo/scss/bootstrap/_alert.scss, in `alert-outline-variant'
-        from line 41 of /Users/datcodero/.bitnami/stackman/machines/xampp/volumes/root/htdocs/zimdemo/scss/bootstrap/_alert.scss
-        from line 31 of /Users/datcodero/.bitnami/stackman/machines/xampp/volumes/root/htdocs/zimdemo/scss/dashforge.scss
+Error: Undefined variable: "$border-radius".
+        on line 19 of /Users/datcodero/.bitnami/stackman/machines/xampp/volumes/root/htdocs/zimdemo/scss/bootstrap/_buttons.scss, in `border-radius'
+        from line 35 of /Users/datcodero/.bitnami/stackman/machines/xampp/volumes/root/htdocs/zimdemo/scss/bootstrap/_buttons.scss
+        from line 30 of /Users/datcodero/.bitnami/stackman/machines/xampp/volumes/root/htdocs/zimdemo/scss/dashforge.scss
 
-36: @import "bootstrap/carousel";
-37: @import "bootstrap/custom-forms";
-38: @import "bootstrap/dropdown";
-39: @import "bootstrap/forms";
-40: @import "bootstrap/grid";
-41: @import "bootstrap/input-group";
-42: @import "bootstrap/list-group";
-43: @import "bootstrap/modal";
-44: @import "bootstrap/nav";
-45: @import "bootstrap/navbar";
-46: @import "bootstrap/pagination";
+14: // Local font
+15: @import "fonts/ibm-plex-sans";
+16: @import "fonts/inter-ui";
+17: // Variables
+18: @import "variables";
+19: @import "bootstrap/variables";
+20: // Mixins
+21: @import "mixins";
+22: @import "bootstrap/mixins";
+23: 
+24: /* ############### BOOTSTRAP OVERRIDES ############### *\/
 
 Backtrace:
-/Users/datcodero/.bitnami/stackman/machines/xampp/volumes/root/htdocs/zimdemo/scss/bootstrap/_alert.scss:41:in `alert-outline-variant'
-/Users/datcodero/.bitnami/stackman/machines/xampp/volumes/root/htdocs/zimdemo/scss/bootstrap/_alert.scss:41
-/Users/datcodero/.bitnami/stackman/machines/xampp/volumes/root/htdocs/zimdemo/scss/dashforge.scss:31
+/Users/datcodero/.bitnami/stackman/machines/xampp/volumes/root/htdocs/zimdemo/scss/bootstrap/_buttons.scss:19:in `border-radius'
+/Users/datcodero/.bitnami/stackman/machines/xampp/volumes/root/htdocs/zimdemo/scss/bootstrap/_buttons.scss:35
+/Users/datcodero/.bitnami/stackman/machines/xampp/volumes/root/htdocs/zimdemo/scss/dashforge.scss:30
 /Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/script/tree/variable.rb:49:in `_perform'
 /Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/script/tree/node.rb:50:in `perform'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:358:in `block (2 levels) in visit_mixin'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:358:in `map'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:358:in `block in visit_mixin'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:74:in `block in perform_arguments'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:67:in `zip'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:67:in `perform_arguments'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:362:in `block in visit_mixin'
 /Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:98:in `block in with_mixin'
 /Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:135:in `with_frame'
 /Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:98:in `with_mixin'
 /Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:350:in `visit_mixin'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:36:in `visit'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:162:in `block in visit'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:79:in `block in with_base'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:135:in `with_frame'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:79:in `with_base'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:162:in `visit'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:444:in `block (2 levels) in visit_rule'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:444:in `map'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:444:in `block in visit_rule'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:183:in `with_environment'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:442:in `visit_rule'
 /Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:36:in `visit'
 /Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:162:in `block in visit'
 /Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:79:in `block in with_base'
@@ -96,4 +86,4 @@ Backtrace:
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$red\".\A         on line 41 of /Users/datcodero/.bitnami/stackman/machines/xampp/volumes/root/htdocs/zimdemo/scss/bootstrap/_alert.scss, in `alert-outline-variant'\A         from line 41 of /Users/datcodero/.bitnami/stackman/machines/xampp/volumes/root/htdocs/zimdemo/scss/bootstrap/_alert.scss\A         from line 31 of /Users/datcodero/.bitnami/stackman/machines/xampp/volumes/root/htdocs/zimdemo/scss/dashforge.scss\A \A 36: @import \"bootstrap/carousel\";\A 37: @import \"bootstrap/custom-forms\";\A 38: @import \"bootstrap/dropdown\";\A 39: @import \"bootstrap/forms\";\A 40: @import \"bootstrap/grid\";\A 41: @import \"bootstrap/input-group\";\A 42: @import \"bootstrap/list-group\";\A 43: @import \"bootstrap/modal\";\A 44: @import \"bootstrap/nav\";\A 45: @import \"bootstrap/navbar\";\A 46: @import \"bootstrap/pagination\";"; }
+  content: "Error: Undefined variable: \"$border-radius\".\A         on line 19 of /Users/datcodero/.bitnami/stackman/machines/xampp/volumes/root/htdocs/zimdemo/scss/bootstrap/_buttons.scss, in `border-radius'\A         from line 35 of /Users/datcodero/.bitnami/stackman/machines/xampp/volumes/root/htdocs/zimdemo/scss/bootstrap/_buttons.scss\A         from line 30 of /Users/datcodero/.bitnami/stackman/machines/xampp/volumes/root/htdocs/zimdemo/scss/dashforge.scss\A \A 14: // Local font\A 15: @import \"fonts/ibm-plex-sans\";\A 16: @import \"fonts/inter-ui\";\A 17: // Variables\A 18: @import \"variables\";\A 19: @import \"bootstrap/variables\";\A 20: // Mixins\A 21: @import \"mixins\";\A 22: @import \"bootstrap/mixins\";\A 23: \A 24: /* ############### BOOTSTRAP OVERRIDES ############### */"; }

@@ -2404,3 +2404,58 @@ table.table-vcenter {
         }
     }
 }
+
+body {
+    background-color: #f0f0f0;
+}
+
+.page-invoice-wrap {
+    background: #fff;
+    padding: 15px;
+}
+
+.page-invoice-top {
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #e1e1e1;
+}
+
+.barcode-wrap {
+    width: 100px;
+    height: 100px;
+    margin-left: auto;
+    text-align: center;
+    img {
+        border: 1px solid rgba(0, 0, 0, 0.3);
+    }
+}
+
+table.table-striped tbody tr:nth-of-type(2n+1) {
+    background-color: #fff;
+}
+
+.table tbody tr {
+    background: #fff;
+}
+
+.table .tr-row+.collapse-row {
+    background: rgba(142, 239, 231, 0.23921568627450981);
+}
+
+.profile-info-list.course svg {
+    flex-shrink: 0;
+    align-self: stretch;
+}
+
+nav div ul li a {
+    background: #fff;
+    &:hover {
+        background: aliceblue;
+    }
+}
+
+nav div ul li:not(:last-child) {
+    a {
+        margin-right: -1px;
+    }
+}

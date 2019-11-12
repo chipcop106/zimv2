@@ -28,12 +28,12 @@
                 </ul>
               </div><!-- col -->
               <div class="col-sm-6 col-md-5 col-lg-12 mg-t-20">
-                <label class="tx-sans tx-10 tx-semibold tx-uppercase tx-color-01 tx-spacing-1 mg-b-15">Social Channel</label>
-                <ul class="list-unstyled profile-info-list mg-b-10">
-                  <li><i data-feather="github"></i> <a href="">@lamandnam</a></li>
-                  <li><i data-feather="twitter"></i> <a href="">@lamlam</a></li>
-                  <li><i data-feather="instagram"></i> <a href="">@lamandnam</a></li>
-                  <li><i data-feather="facebook"></i> <a href="">@lamandnam</a></li>
+                <label class="tx-sans tx-10 tx-semibold tx-uppercase tx-color-01 tx-spacing-1 mg-b-15">Course</label>
+                <ul class="list-unstyled profile-info-list course mg-b-10">
+                  <li><i data-feather="book"></i> <a href="#">[ZIM – 65 Yên Lãng] - A-IELTS Intermediate, 11/11, 18:30-20:30,</a></li>
+                  <li><i data-feather="book"></i> <a href="#">[ZIM - 308 Trần Phú] - A-IELTS Intermediate, 11/11, 09:30-11:30, 14:00-16:00, 18:00-20:00</a></li>
+                  <li><i data-feather="book"></i> <a href="#">[ZIM - 308 Trần Phú] - A-IELTS Foundation, 11/11, 08:00-10:00, 10:00-12:00</a></li>
+                  <li><i data-feather="book"></i> <a href="#">[ZIM – 35 Võ Oanh] - A-IELTS Intermediate, 08/11, 18:30-20:30</a></li>
                 </ul>
               </div><!-- col -->
             </div><!-- row -->
@@ -130,11 +130,14 @@
                   </div>
                 </div> 
             -->
-
-            <div class="card mg-b-20 mg-lg-b-25">
-              <div class="card-header">
-                <h6 class="mg-b-0">NOTIFICATION</h6>
+            <div class="search-post mg-b-10">
+              <div class="search-form">
+                <input type="search" class="form-control" placeholder="Search">
+                <button class="btn" type="button"><i data-feather="search"></i></button>
               </div>
+            </div>
+          
+            <div class="card mg-b-20 mg-lg-b-25">
               <div class="card-body pd-20 pd-lg-25">
                 <div class="media blog">
                   <a href="feed-detail.php">
@@ -187,15 +190,86 @@
                   </div>
                 </div>
 
-                <a href="#" class="loadmore d-block text-center">Load more <i data-feather="chevron-down"></i></a>
+                <!-- <i href="#" class="loadmore d-block text-center">Load more <i data-feather="chevron-down"></i></a> -->
               </div>
             </div><!-- card -->
+            <nav aria-label="Page navigation" class="mg-t-10">
+            <ul class="pagination mg-b-0 justify-content-center">
+                <li class="page-item disabled"><a class="page-link page-link-icon" href="#"><i data-feather="chevron-left"></i></a></li>
+                <li class="page-item active"><a class="page-link" href="#">1</a></li>
+                <li class="page-item"><a class="page-link" href="#">2</a></li>
+                <li class="page-item"><a class="page-link" href="#">3</a></li>
+                <li class="page-item"><a class="page-link page-link-icon" href="#"><i data-feather="chevron-right"></i></a></li>
+            </ul>
+        </nav>
           </div><!-- media-body -->
           <div class="profile-sidebar mg-t-40 mg-lg-t-0 pd-lg-l-25">
             <div class="row">
+            <div class="col-sm-6 col-md-5 col-lg">
+                <div class="d-flex align-items-center justify-content-between mg-b-20">
+                  <h6 class="tx-13 tx-spacng-1 tx-uppercase tx-semibold mg-b-0">Most Viewed</h6>
+                  <a href="" class="link-03">View all</a>
+                </div>
+                <ul class="list-unstyled media-list mg-b-0">
+
+                  <li class="block-blog">
+                    <div class="media blog">
+                      <a href="blog-detail.php">
+                      <img src="https://genknews.genkcdn.vn/zoom/260_162/2019/10/8/photo-1-1570501849269464125616-crop-15705018593691970025254.jpg" class="wd-50 rounded mg-r-15" alt="">
+                      </a>
+                      <div class="media-body">
+                       <a href="blog-detail.php"> Phụ kiện biến iPhone X, XS thành iPhone 11 Pro? </a>
+                      </div>
+                    </div>
+                  </li>
+
+                  <li class="block-blog">
+                    <div class="media blog">
+                      <a href="">
+                      <img src="https://genknews.genkcdn.vn/zoom/380_240/2019/10/3/4323342-1570068733641472757369-crop-15700687408771451307615.jpg" class="wd-50 rounded mg-r-15" alt="">
+                      </a>
+                      <div class="media-body">
+                        <a href=""> Hệ điều hành MacOS Catalina được phát hành, iTunes chính thức bị khai tử </a>
+                      </div>
+                    </div>
+                  </li>
+
+                  <li class="block-blog">
+                    <div class="media blog">
+                    <a href="blog-detail.php">
+                    <img src="https://genknews.genkcdn.vn/zoom/250_155/2019/10/8/maxresdefault-1-15705119096021352426536-crop-1570512073919402473101.jpg" class="wd-50 rounded mg-r-15" alt="">
+                    </a>
+                    <div class="media-body">
+                      <a href="blog-detail.php"> Phụ kiện biến iPhone X, XS thành iPhone 11 Pro? </a>
+                    </div>
+                  </div>
+                  </li>
+                  <li class="block-blog">
+                    <div class="media blog">
+                      <a href="blog-detail.php">
+                      <img src="https://genknews.genkcdn.vn/zoom/260_162/2019/10/8/photo-1-1570501849269464125616-crop-15705018593691970025254.jpg" class="wd-50 rounded mg-r-15" alt="">
+                      </a>
+                      <div class="media-body">
+                       <a href="blog-detail.php"> Phụ kiện biến iPhone X, XS thành iPhone 11 Pro? </a>
+                      </div>
+                    </div>
+                  </li>
+
+                  <li class="block-blog">
+                    <div class="media blog">
+                      <a href="blog-detail.php">
+                      <img src="https://genknews.genkcdn.vn/zoom/380_240/2019/10/3/4323342-1570068733641472757369-crop-15700687408771451307615.jpg" class="wd-50 rounded mg-r-15" alt="">
+                      </a>
+                      <div class="media-body">
+                        <a href="blog-detail.php"> Hệ điều hành MacOS Catalina được phát hành, iTunes chính thức bị khai tử </a>
+                      </div>
+                    </div>
+                  </li>
+                </ul>
+              </div><!-- col -->
               <div class="col-sm-6 col-md-5 col-lg">
                 <div class="d-flex align-items-center justify-content-between mg-b-20">
-                  <h6 class="tx-13 tx-spacng-1 tx-uppercase tx-semibold mg-b-0">newest blog</h6>
+                  <h6 class="tx-13 tx-spacng-1 tx-uppercase tx-semibold mg-b-0">Most Viewed</h6>
                   <a href="" class="link-03">View all</a>
                 </div>
                 <ul class="list-unstyled media-list mg-b-0">
@@ -355,27 +429,6 @@
           </div>
 
         </fieldset>
-        <fieldset class="form-fieldset mg-t-20">
-          <legend>Social channel</legend>
-          <div class="row">
-            <div class="form-group col-12 col-md-6">
-              <label class="d-block">Facebook</label>
-              <input type="text" class="form-control" placeholder="" value="@lamandnam">
-            </div>
-            <div class="form-group col-12 col-md-6">
-              <label class="d-block">Twitter</label>
-              <input type="text" class="form-control" placeholder="" value="@lamandnam">
-            </div>
-            <div class="form-group col-12 col-md-6">
-              <label class="d-block">Instagram</label>
-              <input type="text" class="form-control" placeholder="" value="@lamandnam">
-            </div>
-            <div class="form-group col-12 col-md-6">
-              <label class="d-block">Telegram</label>
-              <input type="text" class="form-control" placeholder="" value="@lamandnam">
-            </div>
-          </div>
-          
         </fieldset>
       </div>
       <div class="modal-footer">
@@ -420,7 +473,7 @@
   </div>
 </div>
 <?php require_once( 'footer.php' ); ?>
-
+<script src="assets/js/infinite-scroll.pkgd.min.js"></script>
 
 <script>
     $(document).ready(function(){
