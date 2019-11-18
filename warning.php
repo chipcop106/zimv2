@@ -2,7 +2,11 @@
 <?php require_once( 'header.php' ); ?>
 
 <link rel="stylesheet" href="assets/css/dashforge.mail.css">
-
+<style>
+    .reply-block.accepted{
+        background: #e7ffe4;
+    }
+</style>
 <div class="content content-fixed">
     <div class="container pd-x-0 pd-lg-x-10 pd-xl-x-0">
 
@@ -49,10 +53,10 @@
                                 </div><!-- media -->
                             </div><!-- mail-content-header -->
                         </div>
-                        <div class="card-body">
+                        <div class="card-body px-0">
                             <div class="mail-content-body pos-static">
                                 <div class="report-content">
-                                    <div class="pd-b-20 reply-block bd-t-0 teacher-first">
+                                    <div class="pd-b-20 reply-block bd-t-0 pd-x-20 teacher-first">
                                         <div class="media reply-header">
                                             <div class="avatar avatar-sm"><img src="assets/img/teacher.jpg"
                                                     class="rounded-circle" alt=""></div>
@@ -69,22 +73,73 @@
                                     </div>
                                 </div>
                                 <div class="report-reply">
-                                    <div class="pd-y-20 reply-block">
-                                        <div class="media reply-header">
-                                            <div class="avatar avatar-sm"><img src="https://via.placeholder.com/600"
+                                    <div class="pd-20 reply-block rejected ">
+                                        <div class="media reply-header justify-content-between">
+                                            <div class="reply-info d-flex align-items-center">
+                                                <div class="avatar avatar-sm"><img src="https://via.placeholder.com/600"
                                                     class="rounded-circle" alt=""></div>
-                                            <div class="media-body mg-l-10">
-                                                <h6 class="mg-b-2 tx-13">Đỗ Thị Thu Phương</h6>
-                                                <span class="d-block tx-11 tx-color-03">22/04/2019 10:30</span>
-                                            </div><!-- media-body -->
+                                                <div class="media-body mg-l-10">
+                                                    <h6 class="mg-b-2 tx-13">Đỗ Thị Thu Phương</h6>
+                                                    <span class="d-block tx-11 tx-color-03">22/04/2019 10:30</span>
+                                                </div>
+                                            </div>
+                                            <div class="reply-action">
+                                                <a href="javascript:;" class="btn btn-outline-primary btn-sm ">Accept</a>
+                                                <a href="javascript:;" class="btn btn-outline-secondary btn-sm ">Reject</a>
+                                            </div>
+                                          
+                                           <!-- media-body -->
                                         </div><!-- media -->
                                         <div class="reply-content pd-t-15">
                                             <p></p>
                                             <p>Em sẽ cố gắng để học tập và tiếp thu tốt hơn ạ</p>
                                         </div>
-
                                     </div>
-
+                                    <div class="pd-20 reply-block">
+                                        <div class="media reply-header justify-content-between">
+                                            <div class="reply-info d-flex align-items-center">
+                                                <div class="avatar avatar-sm"><img src="https://via.placeholder.com/600"
+                                                    class="rounded-circle" alt=""></div>
+                                                <div class="media-body mg-l-10">
+                                                    <h6 class="mg-b-2 tx-13">Đỗ Thị Thu Phương</h6>
+                                                    <span class="d-block tx-11 tx-color-03">22/04/2019 10:30</span>
+                                                </div>
+                                            </div>
+                                            <div class="reply-action">
+                                                <a href="javascript:;" class="btn btn-outline-primary btn-sm ">Accept</a>
+                                                <a href="javascript:;" class="btn btn-outline-secondary btn-sm ">Reject</a>
+                                            </div>
+                                          
+                                           <!-- media-body -->
+                                        </div><!-- media -->
+                                        <div class="reply-content pd-t-15">
+                                            <p></p>
+                                            <p>Em sẽ cố gắng để học tập và tiếp thu tốt hơn ạ</p>
+                                        </div>
+                                    </div>
+                                    <div class="pd-20 reply-block accepted">
+                                        <div class="media reply-header justify-content-between">
+                                            <div class="reply-info d-flex align-items-center">
+                                                <div class="avatar avatar-sm"><img src="https://via.placeholder.com/600"
+                                                    class="rounded-circle" alt=""></div>
+                                                <div class="media-body mg-l-10">
+                                                    <h6 class="mg-b-2 tx-13">Đỗ Thị Thu Phương</h6>
+                                                    <span class="d-block tx-11 tx-color-03">22/04/2019 10:30</span>
+                                                </div>
+                                            </div>
+                                            <div class="reply-action">
+                                                <span class="tx-success"><i data-feather="check"></i> Đã duyệt</span>
+                                            </div>
+                                          
+                                           <!-- media-body -->
+                                        </div><!-- media -->
+                                        <div class="reply-content pd-t-15">
+                                            <p></p>
+                                            <p>Em sẽ cố gắng để học tập và tiếp thu tốt hơn ạ</p>
+                                        </div>
+                                    </div>
+                          
+                                    
                                 </div>
 
                                 <div class="pd-y-20 pd-t-0-f">

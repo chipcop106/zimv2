@@ -4,15 +4,20 @@
 <link rel="stylesheet" href="assets/css/dashforge.profile.css">
 
 <div class="content content-fixed">
+<div class="post-img-cover">
+                  <!-- <div class="placeholder-img" style="background-image:url('https://thumbs.gfycat.com/OrneryScarceBirdofparadise-poster.jpg');">
+                    
+                  </div> -->
+                 <img src="https://thumbs.gfycat.com/OrneryScarceBirdofparadise-poster.jpg" alt="banner" class="banner-img">
+            </div>
     <div class="container pd-x-0 pd-lg-x-10 pd-xl-x-0">
       
         <div class="media d-block d-lg-flex blog-detail">
           <div class="media-body mg-t-30 mg-lg-t-0 pd-x-15 content-blog">
-            <div class="post-img-cover">
-                  <div class="placeholder-img" style="background-image:url('https://photo2.tinhte.vn/data/attachment-files/2019/10/4795697_iFi_Zen_Blue_p1.jpg');">
-                    
-                  </div>
-                  <div class="thread_title">
+       
+
+            <div class="post-content">
+            <div class="thread_title">
                       <span>iFi Zen Blue - Mẫu Balanced Bluetooth Receiver sử dụng QCC5100, ESS DAC, hỗ trợ LHDC, LDAC</span>
                   </div>
                   <div class="author">
@@ -26,9 +31,6 @@
                           </div>
                       </div>
                   </div>
-            </div>
-
-            <div class="post-content">
               <article>
                 <blockquote class="messageText">
                       Thương hiệu <a href="tags/ifi/" class="Tinhte_XenTag_TagLink" title="">iFi</a> đã chính thức giới thiệu dòng sản phẩm <a href="tags/zen/" class="Tinhte_XenTag_TagLink" title="">Zen</a> Series bao gồm các mẫu thiết bị âm thanh Desktop giá rẻ. <a href="tags/zen-blue/" class="Tinhte_XenTag_TagLink" title="">Zen Blue</a> là mẫu sản phẩm đầu tiên trong dòng sản phẩm Zen được giới thiệu là một chiếc Balanced Bluetooth receiver có mức giá vừa phải chỉ 129 Bảng Anh (khoảng 3,7tr VNĐ).<br>
@@ -155,174 +157,7 @@
               </div>
             </div> 
           </div><!-- media-body -->
-          <div class="profile-sidebar mg-t-40 mg-lg-t-0 pd-lg-l-25">
-            <div class="row">
-              <div class="col-12">
-                <div class="d-flex align-items-center justify-content-between mg-b-20">
-                  <h6 class="tx-13 tx-spacng-1 tx-uppercase tx-semibold mg-b-0">Most viewed</h6>
-                </div>
-                <ul class="list-unstyled media-list mg-b-0">
-
-                  <li class="block-blog">
-                    <div class="media blog">
-                      <a href="#">
-                      <img src="https://genknews.genkcdn.vn/zoom/260_162/2019/10/8/photo-1-1570501849269464125616-crop-15705018593691970025254.jpg" class="wd-50 rounded mg-r-15" alt="">
-                      </a>
-                      <div class="media-body">
-                       <a href=""> Phụ kiện biến iPhone X, XS thành iPhone 11 Pro? </a>
-                      </div>
-                    </div>
-                  </li>
-
-                  <li class="block-blog">
-                    <div class="media blog">
-                      <a href="">
-                      <img src="https://genknews.genkcdn.vn/zoom/380_240/2019/10/3/4323342-1570068733641472757369-crop-15700687408771451307615.jpg" class="wd-50 rounded mg-r-15" alt="">
-                      </a>
-                      <div class="media-body">
-                        <a href=""> Hệ điều hành MacOS Catalina được phát hành, iTunes chính thức bị khai tử </a>
-                      </div>
-                    </div>
-                  </li>
-
-                  <li class="block-blog">
-                    <div class="media blog">
-                    <a href="#">
-                    <img src="https://genknews.genkcdn.vn/zoom/250_155/2019/10/8/maxresdefault-1-15705119096021352426536-crop-1570512073919402473101.jpg" class="wd-50 rounded mg-r-15" alt="">
-                    </a>
-                    <div class="media-body">
-                      <a href=""> Phụ kiện biến iPhone X, XS thành iPhone 11 Pro? </a>
-                    </div>
-                  </div>
-                  </li>
-                  <li class="block-blog">
-                    <div class="media blog">
-                      <a href="#">
-                      <img src="https://genknews.genkcdn.vn/zoom/260_162/2019/10/8/photo-1-1570501849269464125616-crop-15705018593691970025254.jpg" class="wd-50 rounded mg-r-15" alt="">
-                      </a>
-                      <div class="media-body">
-                       <a href=""> Phụ kiện biến iPhone X, XS thành iPhone 11 Pro? </a>
-                      </div>
-                    </div>
-                  </li>
-
-                  <li class="block-blog">
-                    <div class="media blog">
-                      <a href="">
-                      <img src="https://genknews.genkcdn.vn/zoom/380_240/2019/10/3/4323342-1570068733641472757369-crop-15700687408771451307615.jpg" class="wd-50 rounded mg-r-15" alt="">
-                      </a>
-                      <div class="media-body">
-                        <a href=""> Hệ điều hành MacOS Catalina được phát hành, iTunes chính thức bị khai tử </a>
-                      </div>
-                    </div>
-                  </li>
-                </ul>
-              </div><!-- col -->
-              <div class="col-12 mg-t-15 mg-sm-t-30">
-                <div class="d-flex align-items-center justify-content-between mg-b-20">
-                  <h6 class="tx-13 tx-spacng-1 tx-uppercase tx-semibold mg-b-0">newest blog</h6>
-                </div>
-                <ul class="list-unstyled media-list mg-b-0">
-
-                  <li class="block-blog">
-                    <div class="media blog">
-                      <a href="#">
-                      <img src="https://genknews.genkcdn.vn/zoom/260_162/2019/10/8/photo-1-1570501849269464125616-crop-15705018593691970025254.jpg" class="wd-50 rounded mg-r-15" alt="">
-                      </a>
-                      <div class="media-body">
-                       <a href=""> Phụ kiện biến iPhone X, XS thành iPhone 11 Pro? </a>
-                      </div>
-                    </div>
-                  </li>
-
-                  <li class="block-blog">
-                    <div class="media blog">
-                      <a href="">
-                      <img src="https://genknews.genkcdn.vn/zoom/380_240/2019/10/3/4323342-1570068733641472757369-crop-15700687408771451307615.jpg" class="wd-50 rounded mg-r-15" alt="">
-                      </a>
-                      <div class="media-body">
-                        <a href=""> Hệ điều hành MacOS Catalina được phát hành, iTunes chính thức bị khai tử </a>
-                      </div>
-                    </div>
-                  </li>
-
-                  <li class="block-blog">
-                    <div class="media blog">
-                    <a href="#">
-                    <img src="https://genknews.genkcdn.vn/zoom/250_155/2019/10/8/maxresdefault-1-15705119096021352426536-crop-1570512073919402473101.jpg" class="wd-50 rounded mg-r-15" alt="">
-                    </a>
-                    <div class="media-body">
-                      <a href=""> Phụ kiện biến iPhone X, XS thành iPhone 11 Pro? </a>
-                    </div>
-                  </div>
-                  </li>
-                  <li class="block-blog">
-                    <div class="media blog">
-                      <a href="#">
-                      <img src="https://genknews.genkcdn.vn/zoom/260_162/2019/10/8/photo-1-1570501849269464125616-crop-15705018593691970025254.jpg" class="wd-50 rounded mg-r-15" alt="">
-                      </a>
-                      <div class="media-body">
-                       <a href=""> Phụ kiện biến iPhone X, XS thành iPhone 11 Pro? </a>
-                      </div>
-                    </div>
-                  </li>
-
-                  <li class="block-blog">
-                    <div class="media blog">
-                      <a href="">
-                      <img src="https://genknews.genkcdn.vn/zoom/380_240/2019/10/3/4323342-1570068733641472757369-crop-15700687408771451307615.jpg" class="wd-50 rounded mg-r-15" alt="">
-                      </a>
-                      <div class="media-body">
-                        <a href=""> Hệ điều hành MacOS Catalina được phát hành, iTunes chính thức bị khai tử </a>
-                      </div>
-                    </div>
-                  </li>
-                </ul>
-              </div><!-- col -->
-              <div class="col-12 mg-t-15 mg-sm-t-30">
-                <div class="d-flex align-items-center justify-content-between mg-b-20">
-                  <h6 class="tx-13 tx-spacing-1 tx-uppercase tx-semibold mg-b-0">Recent comments</h6>
-                </div>
-                <ul class="list-unstyled media-list mg-b-0">
-                  <li class="media">
-                    <a href=""><div class="avatar avatar-online"><img src="https://via.placeholder.com/350" class="rounded-circle" alt=""></div></a>
-                    <div class="media-body pd-l-15">
-                      <p class="tx-medium mg-b-2"><a href="" class="link-01  mg-r-5">Dat Codero</a><span class="tx-12 tx-color-03">has commented on post  <a href="#">Hệ điều hành MacOS Catalina được phát hành, iTunes chính thức bị khai tử</a></span></p>
-                     
-                    </div>
-                  </li>
-                  <li class="media">
-                    <a href=""><div class="avatar avatar-offline"><img src="https://via.placeholder.com/600" class="rounded-circle" alt=""></div></a>
-                    <div class="media-body pd-l-15">
-                      <p class="tx-medium mg-b-2"><a href="" class="link-01  mg-r-5">Lam .Neter</a><span class="tx-12 tx-color-03">has commented on post  <a href="#">Thầy đồng về Apple dự báo: nhu cầu mạnh mẽ từ iPhone 11 và iPhone SE 2 sẽ giúp doanh số iPhone tăng đến 10% trong quý đầu năm sau  Nổi bật</a></span></p>
-                      
-                    </div>
-                  </li>
-                  <li class="media">
-                    <a href=""><div class="avatar avatar-offline"><span class="avatar-initial rounded-circle bg-teal">R</span></div></a>
-                    <div class="media-body pd-l-15">
-                      <p class="tx-medium mg-b-2"><a href="" class="link-01 mg-r-5">Khoa Luu</a> <span class="tx-12 tx-color-03">has commented on post  <a href="#">Tại sao Apple, Microsoft và Google lại sản xuất earbuds trong khi Sony, Samsung, Xiaomi hay Sennheiser đều chọn kiểu dáng in-ear cho True Wireless?</a></span></p>
-                     
-                    </div>
-                  </li>
-                  <li class="media">
-                    <a href=""><div class="avatar avatar-online"><span class="avatar-initial rounded-circle bg-indigo">R</span></div></a>
-                    <div class="media-body pd-l-15">
-                      <p class="tx-medium mg-b-2"><a href="" class="link-01  mg-r-5">Senior Tran Doan</a> <span class="tx-12 tx-color-03">has commented on post  <a href="#">Google sẽ buộc các nhà sản xuất thiết bị phải ẩn hệ thống điều hướng riêng của họ trong Android 10</a></span></p>
-                      
-                    </div>
-                  </li>
-                  <li class="media">
-                    <a href=""><div class="avatar avatar-online"><span class="avatar-initial rounded-circle bg-gray-600">A</span></div></a>
-                    <div class="media-body pd-l-15">
-                      <p class="tx-medium mg-b-2"><a href="" class="link-01  mg-r-5">Truong Thuc</a><span class="tx-12 tx-color-03">has commented on post  <a href="#">Smartphone lên ngôi trong xử lý công việc, đây là cách giúp các ông, bà chủ trút bỏ nỗi ám ảnh rò rỉ dữ liệu</a></span></p>
-                     
-                    </div>
-                  </li>
-                </ul>
-              </div><!-- col -->
-            </div><!-- row -->
-          </div><!-- profile-sidebar -->
+   
         </div><!-- media -->
     </div><!-- container -->
 </div><!-- content -->
