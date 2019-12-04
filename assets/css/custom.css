@@ -854,7 +854,7 @@ span.score {
   position: -webkit-sticky;
   position: sticky;
   top: 75px; }
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 992px) {
     .left-sticky {
       position: static; } }
 
@@ -1335,9 +1335,6 @@ li.block-blog {
 
 img {
   width: 100%; }
-
-.content {
-  overflow: hidden; }
 
 .post-img-cover {
   position: relative;
@@ -2360,3 +2357,56 @@ nav div ul li:not(:last-child) a {
 .media.blog.status-post .comment-block {
   display: none;
   padding: 15px 0; }
+
+.pf__schedule-test {
+  margin-bottom: 20px; }
+  .pf__schedule-test:last-child {
+    margin-bottom: 0; }
+  .pf__schedule-test tbody {
+    margin-bottom: 15px; }
+  .pf__schedule-test .vertical-align {
+    vertical-align: middle;
+    background: #fff;
+    min-width: 100px;
+    position: -webkit-sticky;
+    position: sticky;
+    left: 0; }
+  .pf__schedule-test td.hd {
+    background: #e3e8ed;
+    font-weight: 500;
+    min-width: 100px; }
+
+caption.title {
+  caption-side: top;
+  text-align: center;
+  font-size: 16px;
+  color: #252525;
+  font-weight: 700; }
+
+.course-join {
+  margin-bottom: 15px;
+  border: 1px solid #e1e1e1e1; }
+  .course-join:last-child {
+    margin-bottom: 0; }
+  .course-join .tb-hd {
+    background: aliceblue;
+    padding: 5px 10px;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out; }
+    .course-join .tb-hd .toggle-table.active {
+      -webkit-transform: rotate(180deg);
+      -ms-transform: rotate(180deg);
+      transform: rotate(180deg); }
+  .course-join h6 {
+    margin-bottom: 0; }
+    .course-join h6:focus {
+      outline: 0; }
+  .course-join .tab-content {
+    padding: 15px;
+    display: none; }
+
+.chart-area-wrap {
+  height: 350px; }

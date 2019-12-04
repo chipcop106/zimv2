@@ -148,6 +148,17 @@
                 </div><!-- card -->
             </div>
             <div class="col-12 col-md-12 col-xl-4">
+                <div class="card mg-t-10">
+                    <div class="card-header pd-t-10 pd-b-10">
+                        <h6 class="lh-5 mg-b-5">Học viên</h6>
+                        <p class="tx-12 tx-color-03 mg-b-0">Thống kê học viên theo quận / huyện</p>
+                    </div><!-- card-header -->
+                    <div class="card-body pd-0">
+                        <div class="chart-area-wrap">
+                            <canvas id="area-chart"></canvas>
+                        </div>
+                    </div><!-- card-body -->
+                </div><!-- card -->
 
                 <div class="card card-body mg-t-10">
                     <div class="media d-block d-sm-flex align-items-center">
@@ -1923,12 +1934,7 @@ var revenueLineChartConfig = {
     options: revenueLineChartOptions,
     data: revenueLineChartData
 };
-//     //Update total Revenue from data[0]  -- Month and year
-//     function updateTotalRevenue(data) {
-//         const reducer = (accumulator, currentValue) => accumulator + currentValue;
-//         var totalData = data.reduce(reducer).toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
-//         return totalData + ' VNĐ';
-//     };
+
 
 function updateTotalRevenueAll(listData) {
     var total = 0;
@@ -2152,13 +2158,8 @@ $.plot('#flotChart6', [{
 
 window.onload = function() {
     revenueLineChart = new Chart(revenueLineChartCTX, revenueLineChartConfig);
-    // monthlyRevenueChart = new Chart(monthlyRevenueChartCTX, monthlyRevenueChartConfig);
-    //var doughnutStudentChart = new Chart(doughnutStudentChartCTX, doughnutStudentChartConfig);
-    // StudentTypeChart = new Chart(StudentTypeChartCTX, StudentTypeChartConfig);
-    // var rateConvertChart = new Chart(rateConvertChartCTX, rateConvertChartConfig);
-    // yearSwap.addEventListener('change', changeDataset);
+
     changeDataset('week');
-    // var totalTypeChart = new Chart(totalTypeChartCTX, totalTypeChartConfig);
 
     var filterItem = $('.filter-time').on('click', function() {
         $(this).addClass('active');
@@ -2338,7 +2339,6 @@ $(document).ready(function() {
     });
     function nonAccentVietnamese(str) {
     str = str.toLowerCase();
-//     We can also use this instead of from line 11 to line 17
     str = str.replace(/\u00E0|\u00E1|\u1EA1|\u1EA3|\u00E3|\u00E2|\u1EA7|\u1EA5|\u1EAD|\u1EA9|\u1EAB|\u0103|\u1EB1|\u1EAF|\u1EB7|\u1EB3|\u1EB5/g, "a");
     str = str.replace(/\u00E8|\u00E9|\u1EB9|\u1EBB|\u1EBD|\u00EA|\u1EC1|\u1EBF|\u1EC7|\u1EC3|\u1EC5/g, "e");
     str = str.replace(/\u00EC|\u00ED|\u1ECB|\u1EC9|\u0129/g, "i");
@@ -2346,13 +2346,6 @@ $(document).ready(function() {
     str = str.replace(/\u00F9|\u00FA|\u1EE5|\u1EE7|\u0169|\u01B0|\u1EEB|\u1EE9|\u1EF1|\u1EED|\u1EEF/g, "u");
     str = str.replace(/\u1EF3|\u00FD|\u1EF5|\u1EF7|\u1EF9/g, "y");
     str = str.replace(/\u0111/g, "d");
-    // str = str.replace(/à|á|ạ|ả|ã|â|ầ|ấ|ậ|ẩ|ẫ|ă|ằ|ắ|ặ|ẳ|ẵ/g, "a");
-    // str = str.replace(/è|é|ẹ|ẻ|ẽ|ê|ề|ế|ệ|ể|ễ/g, "e");
-    // str = str.replace(/ì|í|ị|ỉ|ĩ/g, "i");
-    // str = str.replace(/ò|ó|ọ|ỏ|õ|ô|ồ|ố|ộ|ổ|ỗ|ơ|ờ|ớ|ợ|ở|ỡ/g, "o");
-    // str = str.replace(/ù|ú|ụ|ủ|ũ|ư|ừ|ứ|ự|ử|ữ/g, "u");
-    // str = str.replace(/ỳ|ý|ỵ|ỷ|ỹ/g, "y");
-    // str = str.replace(/đ/g, "d");
     // Some system encode vietnamese combining accent as individual utf-8 characters
     str = str.replace(/\u0300|\u0301|\u0303|\u0309|\u0323/g, ""); // Huyền sắc hỏi ngã nặng 
     str = str.replace(/\u02C6|\u0306|\u031B/g, ""); // Â, Ê, Ă, Ơ, Ư
@@ -2383,5 +2376,90 @@ $(document).ready(function() {
     $('#search-saler').on('keyup',function(){
         searchName($('#search-saler').get(0),'sale-viewer');
     });
+    
+
+    //New update 4/12 4h chiều
+    var areaOption = {
+        title:{
+            text:'Các khu vực',
+            display:true
+        },
+        responsive: true,
+        maintainAspectRatio: false,
+        layout: {
+            padding: {
+                left: 10,
+                right: 5,
+                top: 10,
+                bottom: 10
+            }
+        },
+        legend: {
+            display: true,
+            fullWidth:true,
+            labels: {
+                fontColor: '#252525',
+
+            },
+        
+
+        },
+        hover: {
+            mode: "label"
+        },
+        scales: {
+            xAxes: [{
+                display: false,
+
+            }],
+            yAxes: [{
+                display: false,
+  
+            }]
+        },
+        tooltips: {
+       
+            callbacks: {
+                label: function(tooltipItem, data) {
+                    // console.log(data);
+                     console.log(tooltipItem);
+                    var label = data.labels[tooltipItem.index];
+                    var value = data.datasets[0].data[tooltipItem.index];
+               
+                    if (parseInt(value) >= 1000) {
+                        return  label + ': ' + value.toString().replace(
+                            /\B(?=(\d{3})+(?!\d))/g, ",") + ' Học viên';
+                    } else {
+                        return  label + ': ' + value + ' Học viên';
+                    }
+
+                }
+            }
+        }
+    };
+    var areaData = {
+        labels: ["Quận Cam","Quận Quýt","Quận Dưa","Quận Táo","Quận Lê"],
+        datasets:[{
+            data: getRandom(4),
+            backgroundColor: [
+        "#2ecc71",
+        "#3498db",
+        "#E74C3C",
+        "#9b59b6",
+        "#f1c40f"
+      ],
+
+           
+        }]
+    }
+    console.log(areaData);
+    var areaOptionsConfig = {
+        type:'pie',
+        options:areaOption,
+        data:areaData
+    }
+    var areaChart = new Chart(document.getElementById('area-chart'),areaOptionsConfig);
+    
+
 });
 </script>

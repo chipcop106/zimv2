@@ -983,7 +983,7 @@ span.score {
 .left-sticky {
     position: sticky;
     top: 75px;
-    @include media(768px) {
+    @include media(992px) {
         position: static;
     }
 }
@@ -1544,10 +1544,9 @@ img {
     width: 100%;
 }
 
-.content {
-    overflow: hidden;
-}
-
+// .content {
+//     overflow: hidden;
+// }
 .post-img-cover {
     position: relative;
     margin-left: -30px;
@@ -2782,4 +2781,64 @@ nav div ul li:not(:last-child) {
         display: none;
         padding: 15px 0;
     }
+}
+
+.pf__schedule-test {
+    margin-bottom: 20px;
+    &:last-child {
+        margin-bottom: 0;
+    }
+    tbody {
+        margin-bottom: 15px;
+    }
+    .vertical-align {
+        vertical-align: middle;
+        background: #fff;
+        min-width: 100px;
+        position: sticky;
+        left: 0;
+    }
+    td.hd {
+        background: #e3e8ed;
+        font-weight: 500;
+        min-width: 100px;
+    }
+}
+
+caption.title {
+    caption-side: top;
+    text-align: center;
+    font-size: 16px;
+    color: #252525;
+    font-weight: 700;
+}
+
+.course-join {
+    margin-bottom: 15px;
+    &:last-child {
+        margin-bottom: 0;
+    }
+    .tb-hd {
+        background: aliceblue;
+        padding: 5px 10px;
+        @include transition(.3s);
+        .toggle-table.active {
+            transform: rotate(180deg);
+        }
+    }
+    h6 {
+        margin-bottom: 0;
+        &:focus {
+            outline: 0;
+        }
+    }
+    border: 1px solid #e1e1e1e1;
+    .tab-content {
+        padding: 15px;
+        display: none;
+    }
+}
+
+.chart-area-wrap {
+    height: 350px;
 }
