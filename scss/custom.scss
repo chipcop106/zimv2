@@ -2842,3 +2842,21 @@ caption.title {
 .chart-area-wrap {
     height: 350px;
 }
+
+.table__rank__wrap {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    .table-ranking-teacher {
+        position: relative;
+        flex: 1;
+        .tableFixHead {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            max-height: 100%;
+        }
+    }
+}

@@ -557,6 +557,7 @@
 
                     <div class="card-body d-flex">
                         <div class="col-md-12 pd-0 pd-md-r-10">
+                            <div class="table__rank__wrap">
                             <div class="table-ranking-teacher">
                                 <div class="table-responsive tableFixHead">
                                     <table class="table ranking ">
@@ -1551,6 +1552,8 @@
                                     </table>
                                 </div>
                             </div>
+                            </div>
+                           
                         </div>
                     </div>
                 </div><!-- card -->
