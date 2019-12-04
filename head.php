@@ -17,9 +17,7 @@
     <link href="lib/ionicons/css/ionicons.min.css" rel="stylesheet">
     <link href="lib/datetimepicker-2.5.20/jquery.datetimepicker.min.css" rel="stylesheet">
     <link href="lib/select2/css/select2.min.css" rel="stylesheet">
-    <link href="lib/quill/quill.core.css" rel="stylesheet">
-    <link href="lib/quill/quill.snow.css" rel="stylesheet">
-    <link href="lib/quill/quill.snow.css" rel="stylesheet">
+
     <link href="lib/filepond/filepond.css" rel="stylesheet">
     <link href="lib/filepond-preview/filepond-plugin-media-preview.min.css" rel="stylesheet">
 

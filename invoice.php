@@ -21,18 +21,36 @@
  display:none;
 }
 p.note-line:before {content: '-';position: absolute;right: 100%;}
+
 @media print{
-  .hide-on-print{
+    body { 
+	background: white; 
+	font-size: 12pt; 
+}
+    .hide-on-print{
     display:none;
   }
   .label-print{
     display:block;
   }
- 
+   @page {
+       size:auto ;
+      
+       } 
+       
+   .container{
+       width: auto; 
+	border: 0; 
+
+   }
+   .barcode-wrap img {
+    border:0;
 }
+}
+
 </style>
 <div class="content content-fixed">
-    <div class="container pd-x-0 pd-lg-x-10 pd-xl-x-0">
+    <div class="container pd-x-10 pd-lg-x-10 pd-xl-x-10">
         <div class="page-invoice-wrap">
             <div class="page-invoice-top">
                 <div class="d-sm-flex align-items-center justify-content-between">
@@ -47,7 +65,7 @@ p.note-line:before {content: '-';position: absolute;right: 100%;}
             </div>
             <div class="page-invoice-bottom">
                 <div class="row">
-                    <div class="col-sm-6">
+                    <div class="col-sm-6 col-6">
                         <label class="tx-sans tx-uppercase tx-10 tx-medium tx-spacing-1 tx-color-03">Hoá đơn từ</label>
                         <p class="mg-b-0 tx-12 tx-bold">Công ty cổ phần Eduvator</p>
                         <p class="mg-b-0 tx-12">MST: 0107346642</p>
@@ -57,7 +75,7 @@ p.note-line:before {content: '-';position: absolute;right: 100%;}
                    
 
                     </div><!-- col -->
-                    <div class="col-sm-6 tx-right d-none d-md-block">
+                    <div class="col-sm-6 col-6 tx-right d-md-block">
 
                         <div class="barcode-wrap">
                             <img src="assets/img/barcode.jpg" alt="barcode">
@@ -66,7 +84,7 @@ p.note-line:before {content: '-';position: absolute;right: 100%;}
                         </div>
 
                     </div><!-- col -->
-                    <div class="col-sm-6 col-lg-8 mg-t-20 mg-sm-t-0 mg-md-t-20">
+                    <div class="col-sm-6 col-6 col-lg-8 mg-t-20 mg-sm-t-0 mg-md-t-20">
                         <label class="tx-sans tx-uppercase tx-10 tx-medium tx-spacing-1 tx-color-03">Hoá đơn đến</label>
                         <h6 class="tx-15 mg-b-10">Trương Văn Lam</h6>
                         <p class="mg-b-0">Địa chỉ: 319 c16 Lý Thường Kiệt, Phường 15, Quận 11, Tp HCM</p>
@@ -75,7 +93,7 @@ p.note-line:before {content: '-';position: absolute;right: 100%;}
            
                       
                     </div><!-- col -->
-                    <div class="col-sm-6 col-lg-4 mg-t-20">
+                    <div class="col-sm-6 col-6 col-lg-4 mg-t-20">
                         <label class="tx-sans tx-uppercase tx-10 tx-medium tx-spacing-1 tx-color-03">Thông tin hoá đơn</label>
                         <ul class="list-unstyled lh-7">
                             <li class="d-flex justify-content-between">
@@ -121,7 +139,7 @@ p.note-line:before {content: '-';position: absolute;right: 100%;}
                 </div>
 
                 <div class="row justify-content-between">
-                    <div class="col-sm-6 col-lg-6 order-2 order-sm-0 mg-t-0 mg-sm-t-0">
+                    <div class="col-sm-6 col-6 col-lg-6 order-2 order-sm-0 mg-t-0 mg-sm-t-0">
                         <label class="tx-sans tx-uppercase tx-10 tx-medium tx-spacing-1 tx-color-03 mg-b-5">Lưu ý: </label>
                           <p class="note-line">Học viên cần hoàn thiện học phí khóa học trước khi tham gia khóa học.</p>
                           <p class="note-line">Ngày khai giảng dự kiến là ngày sớm nhất lớp học có thể bắt đầu, thời gian khai giảng có thể lùi không quá 2 tuần để đảm bảo tiến độ lớp học.</p>
@@ -129,7 +147,7 @@ p.note-line:before {content: '-';position: absolute;right: 100%;}
                           <p class="note-line">Trước ngày khai giảng, trung tâm sẽ thông báo đầy đủ thông tin chi tiết lịch học và giờ học cho học viên qua điện thoại và tin nhắn, học viên vui lòng kiểm tra và xác nhận thông tin.</p>
   
                     </div><!-- col -->
-                    <div class="col-sm-6 col-lg-4 order-1 order-sm-0">
+                    <div class="col-sm-6 col-6 col-lg-4 order-1 order-sm-0">
                         <ul class="list-unstyled lh-7 pd-r-10">
                             <li class="d-flex justify-content-between mg-b-5 mg-t-5">
                                 <span>Tổng số tiền</span>

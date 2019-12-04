@@ -81,7 +81,8 @@
                 'lists',
                 'autolink',
                 'paste',
-                'autoresize'
+                'autoresize',
+                'stickytoolbar'
             ],
             paste_as_text: true,
             autoresize_bottom_margin: 30,
