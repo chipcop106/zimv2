@@ -1427,10 +1427,19 @@ $starHoverColour: #6089e1;
         width: auto;
         height: auto;
         display: block;
-        margin-right: 5px;
+        margin-right: 10px;
     }
     .comment-content {
         flex: 1 1 auto;
+        .cmt-area {
+            margin-bottom: 15px;
+        }
+        .form-control {
+            &:focus,
+            &:active {
+                box-shadow: none;
+            }
+        }
     }
     .comment-avatar {}
 }
@@ -2647,12 +2656,45 @@ nav div ul li:not(:last-child) {
 
 .image-demo {
     background: #f1f0f0;
-    padding: 10px;
     border-radius: 3px;
     display: none;
+    .list-preview {
+        display: flex;
+        overflow: auto;
+        @include media(992px) {}
+        .image-box {
+            padding: 10px;
+            flex: 1 1 calc(100% / 6);
+            max-width: calc(100% / 6);
+            position: relative;
+            @include media(992px) {
+                flex: 1 0 calc(100% / 5);
+                max-width: calc(100% / 5);
+            }
+            .delete-image {
+                position: absolute;
+                right: 15px;
+                top: 15px;
+                background: #ccc;
+                width: 24px;
+                height: 24px;
+                line-height: 24px;
+                border-radius: 50%;
+                color: #3463c9;
+                text-align: center;
+                background: rgba(255, 255, 255, .6);
+                cursor: pointer;
+                @include transition(.2s);
+                &:hover {
+                    background: rgba(0, 0, 0, .6);
+                    color: #fff;
+                }
+            }
+        }
+    }
     img {
-        width: 100px;
-        height: 100px;
+        width: 100%;
+        height: 100%;
         object-fit: cover;
         border-radius: 4px;
     }
@@ -2702,6 +2744,14 @@ nav div ul li:not(:last-child) {
     .media-header {
         margin-bottom: 15px;
     }
+    .media-body {
+        >h5 {
+            font-size: 14px;
+            line-height: 24px;
+            font-weight: 400;
+            color: #2f2f2f;
+        }
+    }
     .action-blog {
         .dropdown-toggle {
             color: $primary-txt-color;
@@ -2712,8 +2762,11 @@ nav div ul li:not(:last-child) {
     }
     &.image {
         .media-body {
-            img {
-                height: auto;
+            .carousel-inner {
+                img {
+                    // height: 300px;
+                    // max-height: 300px;
+                }
             }
         }
     }
@@ -2769,6 +2822,12 @@ nav div ul li:not(:last-child) {
     }
     .comment-item .comment-avatar .avatar img {
         min-height: 32px;
+        height: 32px;
+        width: 32px;
+    }
+    .comment-content .comment-info-hourt {
+        .content-cmt-time {}
+        .comment-info-hourt {}
     }
     .comment-form-wrap {
         .comment-item .comment-avatar {
@@ -2857,6 +2916,193 @@ caption.title {
             right: 0;
             bottom: 0;
             max-height: 100%;
+        }
+    }
+}
+
+.profile-info-list {
+    a.tx-primary {
+        color: $primary-color;
+        svg {
+            color: $primary-color;
+        }
+    }
+}
+
+.carousel-navigator {
+    display: flex;
+    list-style: none;
+    margin-top: 15px;
+    padding: 15px 0;
+    background: #f1f1f1;
+    border-left: 0;
+    border-right: 0;
+    overflow: auto;
+    >li {
+        flex: 1 0 25%;
+        max-width: 25%;
+        padding: 0 10px;
+        img {
+            padding: 5px;
+            background: #fff;
+        }
+    }
+}
+
+.comment-item {
+    span.content-cmt-time {
+        color: #707070;
+        display: inline-flex;
+        flex-direction: row-reverse;
+        align-items: center;
+        padding-left: 10px;
+    }
+    .comment-info-hourt {
+        margin-top: 5px;
+    }
+    span.content-cmt-time .rep-cmt {
+        margin-right: 10px;
+    }
+}
+
+.banner-page {
+    height: 300px;
+    position: relative;
+    .banner-overlay {
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        left: 0;
+        top: 0;
+        background: rgba(0, 0, 0, .6);
+        z-index: 1;
+    }
+    img {
+        height: 100%;
+        object-fit: cover;
+    }
+    .box-info {
+        position: absolute;
+        bottom: 30px;
+        left: 30px;
+        color: #fff;
+        z-index: 2;
+        .group-title {
+            color: #fff;
+        }
+    }
+}
+
+.member-list {
+    padding: 15px;
+    background: #fff;
+    display: flex;
+    @include media(600px) {
+        flex-wrap: wrap;
+    }
+    .block {
+        padding: 0 10px;
+        border-right: 1px solid #e1e1e1;
+        @include media(600px) {
+            flex: 1;
+            &:not(.member) {
+                text-align: center;
+            }
+            &:nth-child(2) {
+                border-right: 0;
+            }
+        }
+        .title {
+            margin-bottom: 5px;
+            font-weight: 500;
+        }
+        .number {
+            margin-bottom: 0;
+            line-height: 32px;
+            color: #9a9a9a;
+        }
+        &.member {
+            flex-grow: 1;
+            border-right: 0;
+            @include media(600px) {
+                flex: 1 1 100%;
+                margin-top: 15px;
+                .add-member {
+                    float: right;
+                }
+            }
+        }
+    }
+    .members .avatar {
+        border-radius: 50%;
+        overflow: hidden;
+        margin: 0 5px;
+        flex-shrink: 0;
+        width: 32px;
+        height: 32px;
+    }
+    .view-more {
+        color: #9a9a9a;
+        >.more-num {
+            display: inline-block;
+            width: 32px;
+            height: 32px;
+            background: #ccc;
+            border-radius: 50%;
+            text-align: center;
+            line-height: 32px;
+            color: #fff;
+        }
+    }
+}
+
+.page-group-info {
+    border-radius: 4px;
+    overflow: hidden;
+    margin-bottom: 30px;
+}
+
+.add-member-select {
+    align-items: flex-start;
+    @include media(480px) {
+        flex-wrap: wrap;
+        .search-member {
+            margin-bottom: 15px;
+        }
+    }
+    >.btn {
+        margin: 0 5px;
+    }
+    .search-member {
+        flex-grow: 1;
+        margin: 0 5px;
+    }
+}
+
+.view-list-member {
+    .modal-body {
+        max-height: 80vh;
+        min-height: 60vh;
+        overflow: auto;
+        .member-list-wrap {
+            position: absolute;
+            width: 100%;
+            bottom: 0;
+            left: 0;
+            top: 15px;
+            padding: 15px;
+            overflow: auto;
+        }
+    }
+}
+
+@include media(480px) {
+    .banner-page .box-info {
+        bottom: 15px;
+        left: 15px;
+        right: 15px;
+        .group-title {
+            font-size: 1.5rem;
         }
     }
 }

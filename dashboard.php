@@ -1830,7 +1830,6 @@ var revenueLineChartOptions = {
         padding: {
             top: 10,
             right: 10,
-
         }
     },
     legend: {
